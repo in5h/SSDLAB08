@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "generatedAt": "2026-05-13T17:50:09.221Z",
+    "projectKey": "project2-nodejs-todo.zip",
+    "projectName": "project2-nodejs-todo.zip",
+    "sonarqubeUrl": "http://localhost:9000",
+    "reportVersion": "1.0"
+  },
+  "compilation": {
+    "method": "none",
+    "success": true,
+    "binariesDir": ".",
+    "note": "Full Java SAST performed (compiled classes available)"
+  },
+  "qualityGate": {
+    "status": "NONE",
+    "conditions": []
+  },
+  "measures": {},
+  "summary": {
+    "total": 0,
+    "bySeverity": {
+      "BLOCKER": 0,
+      "CRITICAL": 0,
+      "MAJOR": 0,
+      "MINOR": 0,
+      "INFO": 0
+    },
+    "byType": {
+      "BUG": 0,
+      "VULNERABILITY": 0,
+      "CODE_SMELL": 0,
+      "SECURITY_HOTSPOT": 0
+    }
+  },
+  "issues": []
+}

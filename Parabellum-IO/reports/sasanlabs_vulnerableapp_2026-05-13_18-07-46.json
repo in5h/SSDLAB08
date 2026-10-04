@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "generatedAt": "2026-05-13T18:07:46.266Z",
+    "projectKey": "sasanlabs_vulnerableapp",
+    "projectName": "SasanLabs/VulnerableApp",
+    "sonarqubeUrl": "http://localhost:9000",
+    "reportVersion": "1.0"
+  },
+  "compilation": {
+    "method": "gradle",
+    "success": true,
+    "binariesDir": "D:\\FYP\\Project\\backend\\src\\uploads\\github-1773308805765-VulnerableApp\\build\\classes\\java\\main",
+    "note": "Full Java SAST performed (compiled classes available)"
+  },
+  "qualityGate": {
+    "status": "OK",
+    "conditions": []
+  },
+  "measures": {
+    "complexity": "1613",
+    "minor_violations": "375",
+    "duplicated_lines_density": "19.1",
+    "functions": "970",
+    "classes": "94",
+    "statements": "4174",
+    "sqale_rating": "1.0",
+    "blocker_violations": "8",
+    "bugs": "1",
+    "major_violations": "33",
+    "duplicated_files": "52",
+    "ncloc": "15463",
+    "line_coverage": "0.0",
+    "lines": "19476",
+    "coverage": "0.0",
+    "reliability_rating": "3.0",
+    "code_smells": "480",
+    "security_rating": "5.0",
+    "violations": "489",
+    "security_hotspots": "18",
+    "critical_violations": "64",
+    "info_violations": "9",
+    "uncovered_lines": "6405",
+    "cognitive_complexity": "765",
+    "duplicated_blocks": "114",
+    "files": "258",
+    "vulnerabilities": "8"
+  },
+  "summary": {
+    "total": 0,
+    "bySeverity": {
+      "BLOCKER": 0,
+      "CRITICAL": 0,
+      "MAJOR": 0,
+      "MINOR": 0,
+      "INFO": 0
+    },
+    "byType": {
+      "BUG": 0,
+      "VULNERABILITY": 0,
+      "CODE_SMELL": 0,
+      "SECURITY_HOTSPOT": 0
+    }
+  },
+  "issues": []
+}

@@ -1,0 +1,57 @@
+---
+meta:
+  generatedAt: "2026-05-13T18:20:06.253Z"
+  projectKey: appsecco_dvna
+  projectName: appsecco/dvna
+  sonarqubeUrl: "http://localhost:9000"
+  reportVersion: 1.0
+compilation:
+  method: none
+  success: true
+  binariesDir: .
+  note: Full Java SAST performed (compiled classes available)
+qualityGate:
+  status: OK
+  conditions: []
+measures:
+  complexity: 124
+  minor_violations: 8
+  duplicated_lines_density: 0.0
+  functions: 74
+  classes: 0
+  statements: 315
+  sqale_rating: 1.0
+  blocker_violations: 3
+  bugs: 3
+  major_violations: 11
+  duplicated_files: 0
+  ncloc: 6526
+  line_coverage: 0.0
+  lines: 6827
+  coverage: 0.0
+  reliability_rating: 3.0
+  code_smells: 64
+  security_rating: 5.0
+  violations: 68
+  security_hotspots: 6
+  critical_violations: 45
+  info_violations: 1
+  uncovered_lines: 315
+  cognitive_complexity: 96
+  duplicated_blocks: 0
+  files: 43
+  vulnerabilities: 1
+summary:
+  total: 0
+  bySeverity:
+    BLOCKER: 0
+    CRITICAL: 0
+    MAJOR: 0
+    MINOR: 0
+    INFO: 0
+  byType:
+    BUG: 0
+    VULNERABILITY: 0
+    CODE_SMELL: 0
+    SECURITY_HOTSPOT: 0
+issues: []

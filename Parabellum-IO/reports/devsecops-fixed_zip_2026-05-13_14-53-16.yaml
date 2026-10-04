@@ -1,0 +1,330 @@
+---
+meta:
+  generatedAt: "2026-05-13T14:53:16.125Z"
+  projectKey: devsecops-fixed.zip
+  projectName: devsecops-fixed.zip
+  sonarqubeUrl: "http://localhost:9000"
+  reportVersion: 1.0
+compilation:
+  method: javac
+  success: false
+  binariesDir: .
+  note: Source-only Java analysis — some Java rules may not apply
+qualityGate:
+  status: OK
+  conditions:
+    -
+        metric: new_violations
+        status: OK
+        operator: GT
+        threshold: 0
+        actualValue: 0
+measures:
+  complexity: 106
+  minor_violations: 7
+  duplicated_lines_density: 0.0
+  functions: 80
+  classes: 17
+  statements: 239
+  sqale_rating: 1.0
+  blocker_violations: 0
+  bugs: 4
+  major_violations: 12
+  duplicated_files: 0
+  ncloc: 1099
+  line_coverage: 0.0
+  lines: 2413
+  coverage: 0.0
+  reliability_rating: 2.0
+  code_smells: 14
+  security_rating: 3.0
+  violations: 19
+  security_hotspots: 4
+  critical_violations: 0
+  info_violations: 0
+  uncovered_lines: 310
+  cognitive_complexity: 29
+  duplicated_blocks: 0
+  files: 27
+  vulnerabilities: 1
+summary:
+  total: 19
+  bySeverity:
+    BLOCKER: 0
+    CRITICAL: 0
+    MAJOR: 12
+    MINOR: 7
+    INFO: 0
+  byType:
+    BUG: 4
+    VULNERABILITY: 1
+    CODE_SMELL: 14
+    SECURITY_HOTSPOT: 0
+issues:
+  -
+      key: 2f5eff5c-5a58-49c2-a3c5-c2a255216c73
+      type: CODE_SMELL
+      severity: MAJOR
+      rule: "kubernetes:S6897"
+      message: Specify a storage request for this container.
+      component: src/uploads/upload-1778580843276/devsecops-fixed/k8s/deployment.yaml
+      line: 55
+      effort: 5min
+      status: OPEN
+      tags: []
+      createdAt: "2026-03-11T09:20:31+0500"
+  -
+      key: 3efb575e-d945-4315-a346-1bcba23d06c5
+      type: VULNERABILITY
+      severity: MAJOR
+      rule: "kubernetes:S6870"
+      message: Specify a storage limit for this container.
+      component: src/uploads/upload-1778580843276/devsecops-fixed/k8s/deployment.yaml
+      line: 55
+      effort: 5min
+      status: OPEN
+      tags: []
+      createdAt: "2026-03-11T09:20:31+0500"
+  -
+      key: 179fd529-aa9d-42c6-be7f-fae8dee94c76
+      type: CODE_SMELL
+      severity: MAJOR
+      rule: "java:S2629"
+      message: Use the built-in formatting to construct this argument.
+      component: src/uploads/upload-1778580843276/devsecops-fixed/src/main/java/com/devsecops/controller/AuthController.java
+      line: 68
+      effort: 5min
+      status: OPEN
+      tags:
+        - performance
+      createdAt: "2026-03-11T09:20:31+0500"
+  -
+      key: 591caae3-62cb-41aa-adb9-817b20ef7974
+      type: CODE_SMELL
+      severity: MINOR
+      rule: "java:S4719"
+      message: Replace charset name argument with StandardCharsets.UTF_8
+      component: src/uploads/upload-1778580843276/devsecops-fixed/src/main/java/com/devsecops/controller/AuthController.java
+      line: 101
+      effort: 1min
+      status: OPEN
+      tags:
+        - java7
+        - clumsy
+      createdAt: "2026-03-11T09:20:31+0500"
+  -
+      key: 7bf3b7b6-cf3a-4527-a7ff-7f86dd44a00e
+      type: CODE_SMELL
+      severity: MAJOR
+      rule: "java:S1854"
+      message: Remove this useless assignment to local variable "otp".
+      component: src/uploads/upload-1778580843276/devsecops-fixed/src/main/java/com/devsecops/controller/AuthController.java
+      line: 136
+      effort: 1min
+      status: OPEN
+      tags:
+        - cwe
+        - cert
+        - unused
+      createdAt: "2026-03-11T09:20:31+0500"
+  -
+      key: e8dd05ee-37a2-430a-89e6-393ce3d6c9a5
+      type: CODE_SMELL
+      severity: MINOR
+      rule: "java:S1481"
+      message: Remove this unused "otp" local variable.
+      component: src/uploads/upload-1778580843276/devsecops-fixed/src/main/java/com/devsecops/controller/AuthController.java
+      line: 136
+      effort: 5min
+      status: OPEN
+      tags:
+        - unused
+        - java22
+      createdAt: "2026-03-11T09:20:31+0500"
+  -
+      key: 9ad21597-db88-46fc-a862-13588c610a7e
+      type: CODE_SMELL
+      severity: MAJOR
+      rule: "java:S1068"
+      message: Remove this unused "logger" private field.
+      component: src/uploads/upload-1778580843276/devsecops-fixed/src/main/java/com/devsecops/service/AuthService.java
+      line: 28
+      effort: 5min
+      status: OPEN
+      tags:
+        - unused
+      createdAt: "2026-03-11T09:20:31+0500"
+  -
+      key: 845e247e-7843-447c-9ffb-ffa672d106bb
+      type: CODE_SMELL
+      severity: MAJOR
+      rule: "java:S112"
+      message: Replace generic exceptions with specific library exceptions or a custom exception.
+      component: src/uploads/upload-1778580843276/devsecops-fixed/src/main/java/com/devsecops/util/CryptoUtil.java
+      line: 52
+      effort: 20min
+      status: OPEN
+      tags:
+        - cwe
+        - error-handling
+        - cert
+      createdAt: "2026-03-11T09:20:31+0500"
+  -
+      key: 310a4dae-9b62-4e92-b90e-656ec37ded70
+      type: CODE_SMELL
+      severity: MAJOR
+      rule: "java:S125"
+      message: This block of commented-out lines of code should be removed.
+      component: src/uploads/upload-1778580843276/devsecops-fixed/src/main/java/com/devsecops/util/CryptoUtil.java
+      line: 53
+      effort: 5min
+      status: OPEN
+      tags:
+        - unused
+      createdAt: "2026-03-11T09:20:31+0500"
+  -
+      key: e91109ad-d1cb-4cfc-90ef-4729e8ed7449
+      type: CODE_SMELL
+      severity: MAJOR
+      rule: "java:S112"
+      message: Replace generic exceptions with specific library exceptions or a custom exception.
+      component: src/uploads/upload-1778580843276/devsecops-fixed/src/main/java/com/devsecops/util/CryptoUtil.java
+      line: 85
+      effort: 20min
+      status: OPEN
+      tags:
+        - cwe
+        - error-handling
+        - cert
+      createdAt: "2026-03-11T09:20:31+0500"
+  -
+      key: d6331ab2-7ccf-4dac-83e1-2ef24dbe3cf5
+      type: CODE_SMELL
+      severity: MAJOR
+      rule: "java:S112"
+      message: Replace generic exceptions with specific library exceptions or a custom exception.
+      component: src/uploads/upload-1778580843276/devsecops-fixed/src/main/java/com/devsecops/util/CryptoUtil.java
+      line: 94
+      effort: 20min
+      status: OPEN
+      tags:
+        - cwe
+        - error-handling
+        - cert
+      createdAt: "2026-03-11T09:20:31+0500"
+  -
+      key: ccd96ee5-9afb-4449-9620-d92b789e8b11
+      type: BUG
+      severity: MINOR
+      rule: "java:S899"
+      message: Do something with the "boolean" value returned by "setReadable".
+      component: src/uploads/upload-1778580843276/devsecops-fixed/src/main/java/com/devsecops/util/FileUtil.java
+      line: 90
+      effort: 15min
+      status: OPEN
+      tags:
+        - cwe
+        - error-handling
+        - cert
+      createdAt: "2026-03-11T09:20:31+0500"
+  -
+      key: 51dba5da-5cd5-46f3-a0da-1548b6e811b0
+      type: BUG
+      severity: MINOR
+      rule: "java:S899"
+      message: Do something with the "boolean" value returned by "setReadable".
+      component: src/uploads/upload-1778580843276/devsecops-fixed/src/main/java/com/devsecops/util/FileUtil.java
+      line: 91
+      effort: 15min
+      status: OPEN
+      tags:
+        - cwe
+        - error-handling
+        - cert
+      createdAt: "2026-03-11T09:20:31+0500"
+  -
+      key: a1e016d4-ea00-49d1-bb2f-3bf8ab585e11
+      type: BUG
+      severity: MINOR
+      rule: "java:S899"
+      message: Do something with the "boolean" value returned by "setWritable".
+      component: src/uploads/upload-1778580843276/devsecops-fixed/src/main/java/com/devsecops/util/FileUtil.java
+      line: 92
+      effort: 15min
+      status: OPEN
+      tags:
+        - cwe
+        - error-handling
+        - cert
+      createdAt: "2026-03-11T09:20:31+0500"
+  -
+      key: 38c83b0e-6786-4da0-8fac-eb9e12baaeca
+      type: BUG
+      severity: MINOR
+      rule: "java:S899"
+      message: Do something with the "boolean" value returned by "setWritable".
+      component: src/uploads/upload-1778580843276/devsecops-fixed/src/main/java/com/devsecops/util/FileUtil.java
+      line: 93
+      effort: 15min
+      status: OPEN
+      tags:
+        - cwe
+        - error-handling
+        - cert
+      createdAt: "2026-03-11T09:20:31+0500"
+  -
+      key: 84cd574a-f8a6-4499-b27c-487b97c9ada4
+      type: CODE_SMELL
+      severity: MAJOR
+      rule: "java:S1068"
+      message: Remove this unused "log" private field.
+      component: src/uploads/upload-1778580843276/devsecops-fixed/src/main/java/com/devsecops/util/HttpUtil.java
+      line: 23
+      effort: 5min
+      status: OPEN
+      tags:
+        - unused
+      createdAt: "2026-03-11T09:20:31+0500"
+  -
+      key: b823fae6-afdc-442d-bb5d-ef13d8d6f1af
+      type: CODE_SMELL
+      severity: MAJOR
+      rule: "java:S112"
+      message: Replace generic exceptions with specific library exceptions or a custom exception.
+      component: src/uploads/upload-1778580843276/devsecops-fixed/src/main/java/com/devsecops/util/HttpUtil.java
+      line: 34
+      effort: 20min
+      status: OPEN
+      tags:
+        - cwe
+        - error-handling
+        - cert
+      createdAt: "2026-03-11T09:20:31+0500"
+  -
+      key: 86ae47ca-720d-4baa-913b-fc1089e5a8b2
+      type: CODE_SMELL
+      severity: MAJOR
+      rule: "java:S112"
+      message: Replace generic exceptions with specific library exceptions or a custom exception.
+      component: src/uploads/upload-1778580843276/devsecops-fixed/src/main/java/com/devsecops/util/HttpUtil.java
+      line: 69
+      effort: 20min
+      status: OPEN
+      tags:
+        - cwe
+        - error-handling
+        - cert
+      createdAt: "2026-03-11T09:20:31+0500"
+  -
+      key: 665b692e-def9-42a4-856a-9f4205218271
+      type: CODE_SMELL
+      severity: MINOR
+      rule: "java:S6353"
+      message: Use concise character class syntax '\\w' instead of '[a-zA-Z0-9_]'.
+      component: src/uploads/upload-1778580843276/devsecops-fixed/src/test/java/com/devsecops/UserControllerTest.java
+      line: 31
+      effort: 5min
+      status: OPEN
+      tags:
+        - regex
+      createdAt: "2026-03-11T09:20:31+0500"

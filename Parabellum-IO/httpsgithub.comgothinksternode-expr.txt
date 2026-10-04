@@ -1,0 +1,17 @@
+https://github.com/gothinkster/node-express-realworld-example-app
+
+Project: Demo Web App
+
+SonarQube Findings:
+1) SQL Injection - High severity - /api/login, parameter "username"
+2) Hardcoded credentials - Medium severity - config.js
+3) XSS vulnerability - High severity - /search endpoint
+
+Snyk Findings:
+1) lodash 4.17.15 - Prototype Pollution (High severity)
+2) express 4.17.1 - Denial of Service vulnerability (Medium severity)
+
+
+SonarQube + Snyk
+
+Demo RealWorld App

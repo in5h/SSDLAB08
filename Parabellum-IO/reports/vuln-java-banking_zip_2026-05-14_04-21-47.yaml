@@ -1,0 +1,157 @@
+---
+meta:
+  generatedAt: "2026-05-14T04:21:47.772Z"
+  projectKey: vuln-java-banking.zip
+  projectName: vuln-java-banking.zip
+  sonarqubeUrl: "http://localhost:9000"
+  reportVersion: 1.0
+compilation:
+  method: javac
+  success: false
+  binariesDir: .
+  note: Source-only Java analysis — some Java rules may not apply
+qualityGate:
+  status: OK
+  conditions:
+    -
+        metric: new_violations
+        status: OK
+        operator: GT
+        threshold: 0
+        actualValue: 0
+measures:
+  complexity: 4
+  minor_violations: 0
+  duplicated_lines_density: 0.0
+  functions: 4
+  classes: 1
+  statements: 15
+  sqale_rating: 1.0
+  blocker_violations: 2
+  bugs: 1
+  major_violations: 4
+  duplicated_files: 0
+  ncloc: 77
+  line_coverage: 0.0
+  lines: 108
+  coverage: 0.0
+  reliability_rating: 4.0
+  code_smells: 4
+  security_rating: 5.0
+  violations: 7
+  security_hotspots: 4
+  critical_violations: 1
+  info_violations: 0
+  uncovered_lines: 17
+  cognitive_complexity: 0
+  duplicated_blocks: 0
+  files: 3
+  vulnerabilities: 2
+summary:
+  total: 7
+  bySeverity:
+    BLOCKER: 2
+    CRITICAL: 1
+    MAJOR: 4
+    MINOR: 0
+    INFO: 0
+  byType:
+    BUG: 1
+    VULNERABILITY: 2
+    CODE_SMELL: 4
+    SECURITY_HOTSPOT: 0
+issues:
+  -
+      key: 7fa6f0c1-aa84-4732-a6b8-48478992b0be
+      type: CODE_SMELL
+      severity: MAJOR
+      rule: "docker:S7019"
+      message: Consider wrapping this instruction in a script file and call it with exec form.
+      component: src/uploads/upload-1778731125356/vuln-java-banking/Dockerfile
+      line: 14
+      effort: 5min
+      status: OPEN
+      tags: []
+      createdAt: "2026-05-13T12:54:58+0500"
+  -
+      key: ac7b91b2-2063-420d-af82-f9e9993e2857
+      type: BUG
+      severity: CRITICAL
+      rule: "docker:S7030"
+      message: Fix this invalid JSON to prevent unexpected behavior of the exec form.
+      component: src/uploads/upload-1778731125356/vuln-java-banking/Dockerfile
+      line: 14
+      effort: 5min
+      status: OPEN
+      tags: []
+      createdAt: "2026-05-13T12:54:58+0500"
+  -
+      key: b2c3bc84-867e-4674-992f-35a0693a4845
+      type: CODE_SMELL
+      severity: MAJOR
+      rule: "java:S1068"
+      message: Remove this unused "CRYPTO_KEY" private field.
+      component: src/uploads/upload-1778731125356/vuln-java-banking/src/main/java/com/bank/BankController.java
+      line: 22
+      effort: 5min
+      status: OPEN
+      tags:
+        - unused
+      createdAt: "2026-05-13T12:54:58+0500"
+  -
+      key: f9cab34e-5674-4f2e-963c-1f52dd620d67
+      type: VULNERABILITY
+      severity: BLOCKER
+      rule: "java:S6437"
+      message: Revoke and change this password, as it is compromised.
+      component: src/uploads/upload-1778731125356/vuln-java-banking/src/main/java/com/bank/BankController.java
+      line: 29
+      effort: 1h
+      status: OPEN
+      tags:
+        - cwe
+      createdAt: "2026-05-13T12:54:58+0500"
+  -
+      key: 27c814b9-5d52-4651-8297-fdcce9e86c92
+      type: CODE_SMELL
+      severity: MAJOR
+      rule: "java:S112"
+      message: Replace generic exceptions with specific library exceptions or a custom exception.
+      component: src/uploads/upload-1778731125356/vuln-java-banking/src/main/java/com/bank/BankController.java
+      line: 37
+      effort: 20min
+      status: OPEN
+      tags:
+        - cwe
+        - error-handling
+        - cert
+      createdAt: "2026-05-13T12:54:58+0500"
+  -
+      key: 390250b3-b54d-4b09-9ec9-3c80fb7408c7
+      type: VULNERABILITY
+      severity: BLOCKER
+      rule: "java:S2755"
+      message: Disable access to external entities in XML parsing.
+      component: src/uploads/upload-1778731125356/vuln-java-banking/src/main/java/com/bank/BankController.java
+      line: 39
+      effort: 15min
+      status: OPEN
+      tags:
+        - cwe
+        - symbolic-execution
+      createdAt: "2026-05-13T12:54:58+0500"
+  -
+      key: 0ceff035-f301-4c97-96db-5c6db4f7da2a
+      type: CODE_SMELL
+      severity: MAJOR
+      rule: "java:S112"
+      message: Replace generic exceptions with specific library exceptions or a custom exception.
+      component: src/uploads/upload-1778731125356/vuln-java-banking/src/main/java/com/bank/BankController.java
+      line: 47
+      effort: 20min
+      status: OPEN
+      tags:
+        - cwe
+        - error-handling
+        - cert
+      createdAt: "2026-05-13T12:54:58+0500"

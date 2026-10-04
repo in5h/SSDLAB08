@@ -1,0 +1,90 @@
+# ========================
+# Node.js / npm
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.npm
+
+# ========================
+# Environment Variables
+# ========================
+.env
+.env.local
+.env.*.local
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+pip-log.txt
+
+# ========================
+# RAG / ChromaDB
+# ========================
+rag-service/chroma_db/
+rag-service/__pycache__/
+rag-service/feedback.db
+
+# ========================
+# Database files
+# ========================
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# ========================
+# Build outputs
+# ========================
+frontend/dist/
+frontend/build/
+
+# ========================
+# SonarQube
+# ========================
+.scannerwork/
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ========================
+# Uploads (user data)
+# ========================
+backend/src/uploads/
+
+# ========================
+# Embedded repos
+# ========================
+AI-Assisted Vulnerability Prioritization & Remediation Tool/

@@ -1,0 +1,3996 @@
+{
+ "nist_csf": {
+  "GV.OC-01": {
+   "title": "The organizational mission is understood and informs cybersecurity risk management",
+   "group": "GOVERN",
+   "description": "The organization's mission, stakeholder expectations, legal and regulatory requirements, and cybersecurity risk strategy are defined and communicated.",
+   "keywords": [
+    "policy",
+    "governance",
+    "compliance",
+    "risk management",
+    "regulatory"
+   ],
+   "cwe": []
+  },
+  "GV.OC-02": {
+   "title": "Internal and external stakeholders are understood and cybersecurity risk communicated",
+   "group": "GOVERN",
+   "description": "Stakeholders with interest in cybersecurity risk outcomes are identified, their needs are understood, and risk information is communicated.",
+   "keywords": [
+    "stakeholder",
+    "communication",
+    "reporting",
+    "risk"
+   ],
+   "cwe": []
+  },
+  "GV.OC-03": {
+   "title": "Legal, regulatory, and contractual requirements regarding cybersecurity are understood",
+   "group": "GOVERN",
+   "description": "The organization understands applicable cybersecurity-related laws, regulations, and contractual requirements.",
+   "keywords": [
+    "compliance",
+    "legal",
+    "regulatory",
+    "gdpr",
+    "pci",
+    "hipaa",
+    "sox"
+   ],
+   "cwe": []
+  },
+  "GV.RM-01": {
+   "title": "Risk management objectives are established and agreed to by organizational stakeholders",
+   "group": "GOVERN",
+   "description": "Risk tolerance and appetite, along with cybersecurity risk management strategy, are established and agreed upon.",
+   "keywords": [
+    "risk tolerance",
+    "risk appetite",
+    "risk strategy",
+    "risk objective"
+   ],
+   "cwe": []
+  },
+  "GV.RM-02": {
+   "title": "Risk appetite and risk tolerance statements are established, communicated, and maintained",
+   "group": "GOVERN",
+   "description": "The organization's risk appetite and risk tolerance are established, documented, and inform risk management decisions.",
+   "keywords": [
+    "risk appetite",
+    "risk tolerance",
+    "risk criteria"
+   ],
+   "cwe": []
+  },
+  "GV.RM-03": {
+   "title": "Cybersecurity risk management activities and outcomes are included in enterprise risk management",
+   "group": "GOVERN",
+   "description": "Cybersecurity risk management is integrated into enterprise-wide risk management processes.",
+   "keywords": [
+    "enterprise risk",
+    "risk management",
+    "integration"
+   ],
+   "cwe": []
+  },
+  "GV.RR-01": {
+   "title": "Organizational leadership is responsible and accountable for cybersecurity risk",
+   "group": "GOVERN",
+   "description": "Senior leadership understands their responsibility for cybersecurity risk and champions cybersecurity risk management.",
+   "keywords": [
+    "accountability",
+    "responsibility",
+    "leadership",
+    "ownership"
+   ],
+   "cwe": []
+  },
+  "GV.RR-02": {
+   "title": "Roles, responsibilities, and authorities related to cybersecurity risk management are established",
+   "group": "GOVERN",
+   "description": "Cybersecurity roles, responsibilities, and authorities for all relevant personnel are defined and communicated.",
+   "keywords": [
+    "roles",
+    "responsibilities",
+    "access control",
+    "privilege",
+    "authority"
+   ],
+   "cwe": []
+  },
+  "GV.PO-01": {
+   "title": "Policy for managing cybersecurity risks is established, communicated, and enforced",
+   "group": "GOVERN",
+   "description": "Cybersecurity policy is established based on organizational mission, strategy, risk appetite, and legal requirements.",
+   "keywords": [
+    "policy",
+    "security policy",
+    "enforcement",
+    "governance"
+   ],
+   "cwe": []
+  },
+  "GV.PO-02": {
+   "title": "Policy for managing cybersecurity risks is reviewed, updated, communicated, and enforced",
+   "group": "GOVERN",
+   "description": "The cybersecurity policy is regularly reviewed and updated to reflect changes in risk, technology, and legal requirements.",
+   "keywords": [
+    "policy review",
+    "update",
+    "maintenance",
+    "enforcement"
+   ],
+   "cwe": []
+  },
+  "ID.AM-01": {
+   "title": "Inventories of hardware managed by the organization are maintained",
+   "group": "IDENTIFY",
+   "description": "Physical devices and systems within the organization are inventoried and managed.",
+   "keywords": [
+    "asset",
+    "inventory",
+    "hardware",
+    "device",
+    "system"
+   ],
+   "cwe": []
+  },
+  "ID.AM-02": {
+   "title": "Inventories of software, services, and systems managed by the organization are maintained",
+   "group": "IDENTIFY",
+   "description": "Software platforms and applications within the organization are inventoried.",
+   "keywords": [
+    "software inventory",
+    "dependency",
+    "library",
+    "package",
+    "component",
+    "outdated library",
+    "third-party"
+   ],
+   "cwe": [
+    "CWE-1104"
+   ]
+  },
+  "ID.AM-03": {
+   "title": "Representations of the organization's authorized network communication and internal and external network data flows are maintained",
+   "group": "IDENTIFY",
+   "description": "Network data flows are documented and maintained.",
+   "keywords": [
+    "network",
+    "data flow",
+    "communication",
+    "protocol",
+    "api",
+    "endpoint"
+   ],
+   "cwe": []
+  },
+  "ID.AM-07": {
+   "title": "Inventories of data and corresponding metadata for designated data types are maintained",
+   "group": "IDENTIFY",
+   "description": "Data assets and their metadata are inventoried and managed throughout their lifecycle.",
+   "keywords": [
+    "data inventory",
+    "data classification",
+    "metadata",
+    "pii",
+    "sensitive data"
+   ],
+   "cwe": [
+    "CWE-200"
+   ]
+  },
+  "ID.RA-01": {
+   "title": "Vulnerabilities in assets are identified, validated, and recorded",
+   "group": "IDENTIFY",
+   "description": "Vulnerabilities in organizational assets are identified, assessed, and documented to support risk mitigation.",
+   "keywords": [
+    "vulnerability",
+    "cve",
+    "security flaw",
+    "weakness",
+    "bug",
+    "defect",
+    "injection",
+    "xss",
+    "sqli"
+   ],
+   "cwe": [
+    "CWE-89",
+    "CWE-79",
+    "CWE-20",
+    "CWE-22"
+   ]
+  },
+  "ID.RA-02": {
+   "title": "Cyber threat intelligence is received from information sharing forums and sources",
+   "group": "IDENTIFY",
+   "description": "Threat intelligence is gathered, analyzed, and used to inform risk decisions.",
+   "keywords": [
+    "threat intelligence",
+    "threat feed",
+    "vulnerability disclosure",
+    "cve",
+    "nvd"
+   ],
+   "cwe": []
+  },
+  "ID.RA-05": {
+   "title": "Threats, vulnerabilities, likelihoods, and impacts are used to understand inherent risk and inform risk response prioritization",
+   "group": "IDENTIFY",
+   "description": "Risk assessments combine threat, vulnerability, likelihood, and impact information to prioritize responses.",
+   "keywords": [
+    "risk assessment",
+    "threat",
+    "impact",
+    "likelihood",
+    "severity",
+    "blocker",
+    "critical",
+    "major"
+   ],
+   "cwe": []
+  },
+  "ID.RA-06": {
+   "title": "Risk responses are chosen, prioritized, planned, tracked, and communicated",
+   "group": "IDENTIFY",
+   "description": "Risk responses including mitigation, transfer, acceptance, or avoidance are selected and tracked.",
+   "keywords": [
+    "risk response",
+    "remediation",
+    "mitigation",
+    "priority",
+    "tracking",
+    "fix"
+   ],
+   "cwe": []
+  },
+  "PR.AA-01": {
+   "title": "Identities and credentials for authorized users, services, and hardware are managed",
+   "group": "PROTECT",
+   "description": "User accounts, service credentials, and device identities are issued, managed, verified, revoked, and audited.",
+   "keywords": [
+    "credential",
+    "password",
+    "authentication",
+    "identity",
+    "account",
+    "hardcoded password",
+    "default password",
+    "weak password",
+    "plaintext password",
+    "stored password"
+   ],
+   "cwe": [
+    "CWE-798",
+    "CWE-259",
+    "CWE-321",
+    "CWE-522"
+   ]
+  },
+  "PR.AA-02": {
+   "title": "Identities are proofed and bound to credentials based on appropriate context",
+   "group": "PROTECT",
+   "description": "Identity proofing establishes trust in user identities before credentials are issued.",
+   "keywords": [
+    "identity proofing",
+    "authentication",
+    "mfa",
+    "multi-factor",
+    "token",
+    "session"
+   ],
+   "cwe": [
+    "CWE-287",
+    "CWE-306"
+   ]
+  },
+  "PR.AA-03": {
+   "title": "Users, services, and hardware are authenticated",
+   "group": "PROTECT",
+   "description": "Authentication mechanisms are used to verify the identity of users, services, and devices before access is granted.",
+   "keywords": [
+    "authentication bypass",
+    "broken authentication",
+    "anonymous access",
+    "missing authentication",
+    "unauthenticated",
+    "jwt",
+    "session fixation"
+   ],
+   "cwe": [
+    "CWE-287",
+    "CWE-306",
+    "CWE-384",
+    "CWE-798"
+   ]
+  },
+  "PR.AA-04": {
+   "title": "Identity assertions are protected, conveyed, and verified",
+   "group": "PROTECT",
+   "description": "Identity assertion mechanisms such as tokens and certificates are protected against forgery and replay attacks.",
+   "keywords": [
+    "token validation",
+    "jwt",
+    "saml",
+    "oauth",
+    "certificate",
+    "replay attack",
+    "token forgery",
+    "signature verification"
+   ],
+   "cwe": [
+    "CWE-345",
+    "CWE-347",
+    "CWE-290"
+   ]
+  },
+  "PR.AA-05": {
+   "title": "Access to assets is granted to authorized users, services, and hardware",
+   "group": "PROTECT",
+   "description": "Access control policies enforce least privilege, need-to-know, and separation of duties.",
+   "keywords": [
+    "access control",
+    "authorization",
+    "privilege escalation",
+    "least privilege",
+    "role",
+    "permission",
+    "rbac",
+    "acl",
+    "insecure direct object",
+    "idor"
+   ],
+   "cwe": [
+    "CWE-269",
+    "CWE-284",
+    "CWE-285",
+    "CWE-639"
+   ]
+  },
+  "PR.AA-06": {
+   "title": "Physical access to assets is managed, monitored, and enforced commensurate with risk",
+   "group": "PROTECT",
+   "description": "Physical access controls protect assets from unauthorized physical access.",
+   "keywords": [
+    "physical access",
+    "facility",
+    "hardware access"
+   ],
+   "cwe": []
+  },
+  "PR.AT-01": {
+   "title": "Personnel are provided with awareness and training so that they can perform their cybersecurity-related tasks",
+   "group": "PROTECT",
+   "description": "All personnel receive cybersecurity awareness training appropriate to their role.",
+   "keywords": [
+    "training",
+    "awareness",
+    "security culture",
+    "developer training"
+   ],
+   "cwe": []
+  },
+  "PR.DS-01": {
+   "title": "The confidentiality, integrity, and availability of data-at-rest are protected",
+   "group": "PROTECT",
+   "description": "Data stored in databases, files, and backup media is protected using encryption and access control.",
+   "keywords": [
+    "encryption",
+    "data at rest",
+    "aes",
+    "disk encryption",
+    "database encryption",
+    "sensitive data storage",
+    "unencrypted",
+    "plaintext storage",
+    "hardcoded secret",
+    "secret",
+    "api key",
+    "private key"
+   ],
+   "cwe": [
+    "CWE-312",
+    "CWE-313",
+    "CWE-256",
+    "CWE-311"
+   ]
+  },
+  "PR.DS-02": {
+   "title": "The confidentiality, integrity, and availability of data-in-transit are protected",
+   "group": "PROTECT",
+   "description": "Data transmitted over networks is protected using encryption and integrity controls.",
+   "keywords": [
+    "tls",
+    "ssl",
+    "https",
+    "transport security",
+    "unencrypted communication",
+    "http",
+    "clear text",
+    "man in the middle",
+    "certificate validation",
+    "ssl verification",
+    "insecure connection"
+   ],
+   "cwe": [
+    "CWE-319",
+    "CWE-326",
+    "CWE-295",
+    "CWE-297"
+   ]
+  },
+  "PR.DS-10": {
+   "title": "The confidentiality, integrity, and availability of data-in-use are protected",
+   "group": "PROTECT",
+   "description": "Data being processed is protected against unauthorized access and manipulation.",
+   "keywords": [
+    "data in use",
+    "memory protection",
+    "buffer",
+    "heap",
+    "stack overflow",
+    "sensitive data exposure"
+   ],
+   "cwe": [
+    "CWE-119",
+    "CWE-125",
+    "CWE-787"
+   ]
+  },
+  "PR.DS-11": {
+   "title": "Backups of data are created, protected, maintained, and tested",
+   "group": "PROTECT",
+   "description": "Data backup procedures are in place and tested regularly to ensure data availability.",
+   "keywords": [
+    "backup",
+    "recovery",
+    "data loss",
+    "availability"
+   ],
+   "cwe": []
+  },
+  "PR.IR-01": {
+   "title": "Networks and environments are protected from unauthorized logical access and usage",
+   "group": "PROTECT",
+   "description": "Network segmentation, firewalls, and other controls protect the network from unauthorized access.",
+   "keywords": [
+    "network segmentation",
+    "firewall",
+    "unauthorized access",
+    "network protection",
+    "ssrf",
+    "request forgery"
+   ],
+   "cwe": [
+    "CWE-918"
+   ]
+  },
+  "PR.IR-02": {
+   "title": "The organization's technology assets are protected from environmental threats",
+   "group": "PROTECT",
+   "description": "Physical and environmental controls protect technology assets from threats like fire, flood, and power failure.",
+   "keywords": [
+    "infrastructure",
+    "environment",
+    "availability"
+   ],
+   "cwe": []
+  },
+  "PR.PS-01": {
+   "title": "Configuration management practices are established and applied",
+   "group": "PROTECT",
+   "description": "Secure configuration baselines are established for all technology assets and enforced.",
+   "keywords": [
+    "configuration",
+    "misconfiguration",
+    "default configuration",
+    "hardening",
+    "security configuration",
+    "debug mode",
+    "verbose error",
+    "stack trace exposed",
+    "insecure default"
+   ],
+   "cwe": [
+    "CWE-1188",
+    "CWE-16",
+    "CWE-614"
+   ]
+  },
+  "PR.PS-02": {
+   "title": "Software is maintained, replaced, and removed commensurate with risk",
+   "group": "PROTECT",
+   "description": "Software patching, updating, and removal processes are in place to manage risk from outdated software.",
+   "keywords": [
+    "outdated",
+    "deprecated",
+    "end of life",
+    "patch",
+    "update",
+    "obsolete",
+    "vulnerable dependency",
+    "known vulnerability"
+   ],
+   "cwe": [
+    "CWE-1104"
+   ]
+  },
+  "PR.PS-03": {
+   "title": "Hardware is maintained, replaced, and removed commensurate with risk",
+   "group": "PROTECT",
+   "description": "Hardware lifecycle management including patching firmware and replacing end-of-life hardware.",
+   "keywords": [
+    "hardware",
+    "firmware",
+    "lifecycle"
+   ],
+   "cwe": []
+  },
+  "PR.PS-04": {
+   "title": "Log records are generated to enable monitoring, forensics, and incident response activities",
+   "group": "PROTECT",
+   "description": "Logging is configured appropriately on all systems to support security monitoring and forensics.",
+   "keywords": [
+    "logging",
+    "log",
+    "audit trail",
+    "monitoring",
+    "missing log",
+    "insufficient logging",
+    "no logging",
+    "log injection",
+    "log forging"
+   ],
+   "cwe": [
+    "CWE-117",
+    "CWE-778"
+   ]
+  },
+  "PR.PS-05": {
+   "title": "Installation and execution of unauthorized software are prevented",
+   "group": "PROTECT",
+   "description": "Application allowlisting and software execution controls prevent unauthorized software from running.",
+   "keywords": [
+    "code injection",
+    "command injection",
+    "exec",
+    "shell injection",
+    "os command",
+    "arbitrary code execution",
+    "deserialization",
+    "remote code execution"
+   ],
+   "cwe": [
+    "CWE-78",
+    "CWE-502",
+    "CWE-94"
+   ]
+  },
+  "PR.PS-06": {
+   "title": "Secure software development practices are integrated, and their security is evaluated",
+   "group": "PROTECT",
+   "description": "Secure SDLC practices including code review, SAST, DAST, and security testing are integrated.",
+   "keywords": [
+    "secure coding",
+    "sdlc",
+    "code review",
+    "sast",
+    "security testing",
+    "input validation",
+    "sanitization",
+    "injection",
+    "sql injection",
+    "xss",
+    "csrf"
+   ],
+   "cwe": [
+    "CWE-89",
+    "CWE-79",
+    "CWE-352",
+    "CWE-20"
+   ]
+  },
+  "DE.AE-02": {
+   "title": "Potentially adverse events are analyzed to better characterize them and detect cybersecurity incidents",
+   "group": "DETECT",
+   "description": "Anomalous activity and events are analyzed to identify potential cybersecurity incidents.",
+   "keywords": [
+    "anomaly detection",
+    "event analysis",
+    "suspicious activity",
+    "intrusion",
+    "attack pattern"
+   ],
+   "cwe": []
+  },
+  "DE.AE-03": {
+   "title": "Event data are aggregated and correlated from multiple sources and sensors",
+   "group": "DETECT",
+   "description": "Security events from multiple sources are correlated to identify attack patterns.",
+   "keywords": [
+    "event correlation",
+    "siem",
+    "log aggregation",
+    "centralized logging",
+    "monitoring"
+   ],
+   "cwe": []
+  },
+  "DE.AE-06": {
+   "title": "Information on adverse events is provided to authorized staff and tools",
+   "group": "DETECT",
+   "description": "Security event information is shared with appropriate personnel and automated tools for response.",
+   "keywords": [
+    "alerting",
+    "notification",
+    "security alert",
+    "incident notification"
+   ],
+   "cwe": []
+  },
+  "DE.CM-01": {
+   "title": "Networks and network services are monitored to find potentially adverse events",
+   "group": "DETECT",
+   "description": "Network traffic is monitored continuously for signs of malicious activity.",
+   "keywords": [
+    "network monitoring",
+    "traffic analysis",
+    "ids",
+    "ips",
+    "intrusion detection"
+   ],
+   "cwe": []
+  },
+  "DE.CM-03": {
+   "title": "Personnel activity and technology usage are monitored to find potentially adverse events",
+   "group": "DETECT",
+   "description": "User behavior and system access are monitored to detect insider threats and misuse.",
+   "keywords": [
+    "user monitoring",
+    "user behavior",
+    "insider threat",
+    "privileged access monitoring",
+    "activity log"
+   ],
+   "cwe": []
+  },
+  "DE.CM-06": {
+   "title": "External service provider activities and services are monitored to find potentially adverse events",
+   "group": "DETECT",
+   "description": "Third-party and external service provider activities are monitored for security issues.",
+   "keywords": [
+    "third party",
+    "external service",
+    "supply chain",
+    "vendor",
+    "open source",
+    "dependency vulnerability"
+   ],
+   "cwe": [
+    "CWE-1104"
+   ]
+  },
+  "DE.CM-09": {
+   "title": "Computing hardware and software, runtime environments, and their data are monitored",
+   "group": "DETECT",
+   "description": "System resources including CPU, memory, and processes are monitored for anomalies.",
+   "keywords": [
+    "runtime monitoring",
+    "process monitoring",
+    "resource monitoring",
+    "memory leak",
+    "performance anomaly"
+   ],
+   "cwe": []
+  },
+  "RS.MA-01": {
+   "title": "The response to a detected cybersecurity incident is managed",
+   "group": "RESPOND",
+   "description": "Incidents are assigned to responsible personnel and managed through to resolution.",
+   "keywords": [
+    "incident management",
+    "incident response",
+    "incident tracking",
+    "remediation tracking"
+   ],
+   "cwe": []
+  },
+  "RS.MA-02": {
+   "title": "Incidents are prioritized and selected based on response strategies and objectives",
+   "group": "RESPOND",
+   "description": "Incidents are triaged and prioritized based on severity, impact, and business context.",
+   "keywords": [
+    "incident priority",
+    "severity",
+    "triage",
+    "blocker",
+    "critical finding"
+   ],
+   "cwe": []
+  },
+  "RS.MA-03": {
+   "title": "Incidents are categorized and classified based on response strategies",
+   "group": "RESPOND",
+   "description": "Incident classification guides the selection of appropriate response procedures.",
+   "keywords": [
+    "incident classification",
+    "categorization",
+    "vulnerability type",
+    "bug",
+    "vulnerability",
+    "code smell"
+   ],
+   "cwe": []
+  },
+  "RS.AN-03": {
+   "title": "Analysis is performed to establish what has taken place during an incident and the root cause of the incident",
+   "group": "RESPOND",
+   "description": "Root cause analysis is conducted for security incidents to understand how they occurred.",
+   "keywords": [
+    "root cause",
+    "analysis",
+    "forensics",
+    "post-mortem",
+    "cause analysis"
+   ],
+   "cwe": []
+  },
+  "RS.AN-06": {
+   "title": "Actions taken during an investigation are recorded",
+   "group": "RESPOND",
+   "description": "Investigation actions are logged and maintained for evidence and audit purposes.",
+   "keywords": [
+    "investigation log",
+    "audit log",
+    "evidence",
+    "forensic record",
+    "chain of custody"
+   ],
+   "cwe": [
+    "CWE-778"
+   ]
+  },
+  "RS.MI-01": {
+   "title": "Incidents are contained",
+   "group": "RESPOND",
+   "description": "Containment actions are taken to limit the spread and impact of security incidents.",
+   "keywords": [
+    "containment",
+    "isolation",
+    "quarantine",
+    "block",
+    "disable"
+   ],
+   "cwe": []
+  },
+  "RS.MI-02": {
+   "title": "Incidents are eradicated",
+   "group": "RESPOND",
+   "description": "The root cause of incidents is eliminated and affected systems are remediated.",
+   "keywords": [
+    "eradication",
+    "remediation",
+    "fix",
+    "patch",
+    "clean",
+    "remove vulnerability"
+   ],
+   "cwe": []
+  },
+  "RC.RP-01": {
+   "title": "The recovery portion of the incident response plan is executed once initiated from the incident response process",
+   "group": "RECOVER",
+   "description": "Recovery procedures are executed to restore systems and services to normal operation.",
+   "keywords": [
+    "recovery",
+    "restore",
+    "business continuity",
+    "disaster recovery",
+    "rto",
+    "rpo"
+   ],
+   "cwe": []
+  },
+  "RC.RP-02": {
+   "title": "Recovery tasks are selected, scoped, prioritized, and performed",
+   "group": "RECOVER",
+   "description": "Recovery activities are planned, prioritized, and tracked to completion.",
+   "keywords": [
+    "recovery plan",
+    "restoration priority",
+    "recovery task",
+    "service restoration"
+   ],
+   "cwe": []
+  },
+  "RC.RP-04": {
+   "title": "The integrity of backups and other restoration assets is verified before using them in recovery",
+   "group": "RECOVER",
+   "description": "Backup integrity is verified using checksums and testing before use in recovery.",
+   "keywords": [
+    "backup integrity",
+    "checksum",
+    "verification",
+    "restoration test"
+   ],
+   "cwe": []
+  },
+  "RC.CO-03": {
+   "title": "Recovery activities and progress in restoring operational capabilities are communicated to designated stakeholders",
+   "group": "RECOVER",
+   "description": "Recovery progress is communicated to stakeholders throughout the recovery process.",
+   "keywords": [
+    "recovery communication",
+    "status update",
+    "stakeholder notification",
+    "incident communication"
+   ],
+   "cwe": []
+  }
+ },
+ "cis_controls": {
+  "CIS-1": {
+   "title": "Inventory and Control of Enterprise Assets",
+   "group": "IG1",
+   "description": "Actively manage (inventory, track, and correct) all enterprise assets connected to the infrastructure physically, virtually, remotely, and those within cloud environments to know the totality of assets that need to be monitored and protected.",
+   "keywords": [
+    "asset inventory",
+    "hardware inventory",
+    "device management",
+    "asset tracking"
+   ],
+   "cwe": []
+  },
+  "CIS-1.1": {
+   "title": "Establish and Maintain Detailed Enterprise Asset Inventory",
+   "group": "IG1",
+   "description": "Establish and maintain an accurate, detailed, and up-to-date inventory of all enterprise assets with potential to store, process or transmit data.",
+   "keywords": [
+    "asset inventory",
+    "system inventory",
+    "endpoint inventory"
+   ],
+   "cwe": []
+  },
+  "CIS-2": {
+   "title": "Inventory and Control of Software Assets",
+   "group": "IG1",
+   "description": "Actively manage (inventory, track, and correct) all software on the network so that only authorized software is installed and can execute, and that unauthorized and unmanaged software is found and prevented from installation or execution.",
+   "keywords": [
+    "software inventory",
+    "dependency",
+    "library",
+    "package",
+    "third-party",
+    "component",
+    "outdated"
+   ],
+   "cwe": [
+    "CWE-1104"
+   ]
+  },
+  "CIS-2.2": {
+   "title": "Ensure Authorized Software is Currently Supported",
+   "group": "IG1",
+   "description": "Ensure that only currently supported software is designated as authorized in the software inventory for enterprise assets.",
+   "keywords": [
+    "outdated library",
+    "end of life",
+    "deprecated",
+    "unsupported software",
+    "known vulnerability",
+    "cve"
+   ],
+   "cwe": [
+    "CWE-1104"
+   ]
+  },
+  "CIS-3": {
+   "title": "Data Protection",
+   "group": "IG1",
+   "description": "Develop processes and technical controls to identify, classify, securely handle, retain, and dispose of data.",
+   "keywords": [
+    "data protection",
+    "data classification",
+    "sensitive data",
+    "pii",
+    "data handling",
+    "data lifecycle"
+   ],
+   "cwe": [
+    "CWE-200",
+    "CWE-312"
+   ]
+  },
+  "CIS-3.3": {
+   "title": "Configure Data Access Control Lists",
+   "group": "IG1",
+   "description": "Configure data access control lists based on a user's need to know. Apply data access control lists, also known as access permissions, to local and remote file systems, databases, and applications.",
+   "keywords": [
+    "access control list",
+    "data access control",
+    "authorization",
+    "idor",
+    "insecure direct object"
+   ],
+   "cwe": [
+    "CWE-284",
+    "CWE-285"
+   ]
+  },
+  "CIS-3.6": {
+   "title": "Encrypt Data on End-User Devices",
+   "group": "IG1",
+   "description": "Encrypt data on end-user devices containing sensitive data.",
+   "keywords": [
+    "encryption",
+    "data at rest",
+    "device encryption",
+    "disk encryption"
+   ],
+   "cwe": [
+    "CWE-311",
+    "CWE-312"
+   ]
+  },
+  "CIS-3.10": {
+   "title": "Encrypt Sensitive Data in Transit",
+   "group": "IG2",
+   "description": "Encrypt sensitive data in transit using only authenticated protocols with at least TLS 1.2.",
+   "keywords": [
+    "tls",
+    "ssl",
+    "https",
+    "transport security",
+    "unencrypted communication",
+    "http",
+    "clear text",
+    "man in the middle"
+   ],
+   "cwe": [
+    "CWE-319",
+    "CWE-326",
+    "CWE-295"
+   ]
+  },
+  "CIS-3.11": {
+   "title": "Encrypt Sensitive Data at Rest",
+   "group": "IG2",
+   "description": "Encrypt sensitive data at rest on servers, applications, and databases containing sensitive data.",
+   "keywords": [
+    "data at rest",
+    "database encryption",
+    "plaintext storage",
+    "unencrypted storage",
+    "hardcoded secret",
+    "api key in code"
+   ],
+   "cwe": [
+    "CWE-312",
+    "CWE-313",
+    "CWE-311"
+   ]
+  },
+  "CIS-4": {
+   "title": "Secure Configuration of Enterprise Assets and Software",
+   "group": "IG1",
+   "description": "Establish and maintain the secure configuration of enterprise assets and software.",
+   "keywords": [
+    "secure configuration",
+    "configuration management",
+    "hardening",
+    "baseline",
+    "misconfiguration"
+   ],
+   "cwe": [
+    "CWE-1188",
+    "CWE-16"
+   ]
+  },
+  "CIS-4.1": {
+   "title": "Establish and Maintain a Secure Configuration Process",
+   "group": "IG1",
+   "description": "Establish and maintain a secure configuration process for enterprise assets and software.",
+   "keywords": [
+    "configuration process",
+    "secure configuration",
+    "hardening standard",
+    "security baseline"
+   ],
+   "cwe": []
+  },
+  "CIS-4.2": {
+   "title": "Establish and Maintain a Secure Configuration Process for Network Infrastructure",
+   "group": "IG1",
+   "description": "Establish and maintain a secure configuration process for network devices.",
+   "keywords": [
+    "network configuration",
+    "firewall configuration",
+    "network hardening",
+    "router configuration"
+   ],
+   "cwe": []
+  },
+  "CIS-4.8": {
+   "title": "Uninstall or Disable Unnecessary Services on Enterprise Assets and Software",
+   "group": "IG1",
+   "description": "Uninstall or disable unnecessary services on enterprise assets and software, such as an unused file sharing service, web application module, or service function.",
+   "keywords": [
+    "unnecessary service",
+    "debug mode",
+    "unused functionality",
+    "exposed service",
+    "unnecessary port"
+   ],
+   "cwe": [
+    "CWE-1188"
+   ]
+  },
+  "CIS-5": {
+   "title": "Account Management",
+   "group": "IG1",
+   "description": "Use processes and tools to assign and manage authorization to credentials for user accounts including administrator accounts as well as service and application accounts.",
+   "keywords": [
+    "account management",
+    "user account",
+    "credential management",
+    "service account",
+    "privileged account"
+   ],
+   "cwe": [
+    "CWE-287"
+   ]
+  },
+  "CIS-5.2": {
+   "title": "Use Unique Passwords",
+   "group": "IG1",
+   "description": "Use unique passwords for all enterprise assets. Best practice implementation includes, at minimum, an 8-character password for accounts using MFA and a 14-character password for accounts not using MFA.",
+   "keywords": [
+    "password",
+    "weak password",
+    "default password",
+    "hardcoded password",
+    "credential",
+    "plaintext password"
+   ],
+   "cwe": [
+    "CWE-521",
+    "CWE-798",
+    "CWE-259"
+   ]
+  },
+  "CIS-5.4": {
+   "title": "Restrict Administrator Privileges to Dedicated Administrator Accounts",
+   "group": "IG1",
+   "description": "Restrict administrator privileges to dedicated administrator accounts on enterprise assets.",
+   "keywords": [
+    "admin privilege",
+    "root access",
+    "privileged account",
+    "least privilege",
+    "privilege escalation",
+    "sudo"
+   ],
+   "cwe": [
+    "CWE-269",
+    "CWE-250"
+   ]
+  },
+  "CIS-6": {
+   "title": "Access Control Management",
+   "group": "IG1",
+   "description": "Use processes and tools to create, assign, manage, and revoke access credentials and privileges for user, administrator, and service/application accounts.",
+   "keywords": [
+    "access control",
+    "access management",
+    "authorization",
+    "rbac",
+    "permission management"
+   ],
+   "cwe": [
+    "CWE-284",
+    "CWE-285"
+   ]
+  },
+  "CIS-6.3": {
+   "title": "Require MFA for Externally-Exposed Applications",
+   "group": "IG1",
+   "description": "Require all externally-exposed enterprise or third-party applications to enforce MFA, where supported.",
+   "keywords": [
+    "mfa",
+    "multi-factor authentication",
+    "two-factor",
+    "2fa",
+    "authentication"
+   ],
+   "cwe": [
+    "CWE-308"
+   ]
+  },
+  "CIS-6.5": {
+   "title": "Require MFA for Administrative Access",
+   "group": "IG1",
+   "description": "Require MFA for all administrative access accounts.",
+   "keywords": [
+    "mfa admin",
+    "admin authentication",
+    "privileged access authentication"
+   ],
+   "cwe": [
+    "CWE-308"
+   ]
+  },
+  "CIS-6.8": {
+   "title": "Define and Maintain Role-Based Access Control",
+   "group": "IG2",
+   "description": "Define and maintain role-based access control, through determining and documenting the access rights necessary for each role within the enterprise to successfully carry out its assigned duties.",
+   "keywords": [
+    "rbac",
+    "role based access",
+    "role assignment",
+    "access rights",
+    "permission",
+    "authorization"
+   ],
+   "cwe": [
+    "CWE-285"
+   ]
+  },
+  "CIS-7": {
+   "title": "Continuous Vulnerability Management",
+   "group": "IG1",
+   "description": "Develop a plan to continuously assess and track vulnerabilities on all enterprise assets within the enterprise's infrastructure, in order to remediate, and minimize, the window of opportunity for attackers.",
+   "keywords": [
+    "vulnerability management",
+    "vulnerability scanning",
+    "patch management",
+    "cve",
+    "remediation"
+   ],
+   "cwe": []
+  },
+  "CIS-7.3": {
+   "title": "Perform Automated Operating System Patch Management",
+   "group": "IG1",
+   "description": "Perform operating system updates on enterprise assets through automated patch management on a monthly, or more frequent, basis.",
+   "keywords": [
+    "patch",
+    "update",
+    "os patch",
+    "security update",
+    "outdated"
+   ],
+   "cwe": []
+  },
+  "CIS-7.4": {
+   "title": "Perform Automated Application Patch Management",
+   "group": "IG1",
+   "description": "Perform application updates on enterprise assets through automated patch management on a monthly, or more frequent, basis.",
+   "keywords": [
+    "application patch",
+    "library update",
+    "dependency update",
+    "outdated library",
+    "vulnerable dependency"
+   ],
+   "cwe": [
+    "CWE-1104"
+   ]
+  },
+  "CIS-8": {
+   "title": "Audit Log Management",
+   "group": "IG1",
+   "description": "Collect, alert, review, and retain audit logs of events that could help detect, understand, or recover from an attack.",
+   "keywords": [
+    "audit log",
+    "logging",
+    "log management",
+    "log retention",
+    "security log",
+    "event log"
+   ],
+   "cwe": [
+    "CWE-778"
+   ]
+  },
+  "CIS-8.2": {
+   "title": "Collect Audit Logs",
+   "group": "IG1",
+   "description": "Collect audit logs. Ensure that logging is enabled across enterprise assets.",
+   "keywords": [
+    "logging",
+    "missing log",
+    "insufficient logging",
+    "log",
+    "no logging",
+    "log injection",
+    "log forging"
+   ],
+   "cwe": [
+    "CWE-778",
+    "CWE-117"
+   ]
+  },
+  "CIS-8.5": {
+   "title": "Collect Detailed Audit Logs",
+   "group": "IG1",
+   "description": "Configure detailed audit logging for enterprise assets containing sensitive data. Include event source, date, username, timestamp, source addresses, destination addresses, and other useful elements.",
+   "keywords": [
+    "detailed logging",
+    "audit trail",
+    "event logging",
+    "user activity log"
+   ],
+   "cwe": []
+  },
+  "CIS-9": {
+   "title": "Email and Web Browser Protections",
+   "group": "IG1",
+   "description": "Improve protections and detections of threats from email and web vectors, as these are opportunities for attackers to manipulate human behavior through direct engagement.",
+   "keywords": [
+    "email security",
+    "phishing",
+    "web security",
+    "malicious link"
+   ],
+   "cwe": []
+  },
+  "CIS-10": {
+   "title": "Malware Defenses",
+   "group": "IG1",
+   "description": "Prevent or control the installation, spread, and execution of malicious applications, code, or scripts on enterprise assets.",
+   "keywords": [
+    "malware",
+    "code injection",
+    "command injection",
+    "exec",
+    "remote code execution",
+    "deserialization",
+    "shell injection",
+    "arbitrary code"
+   ],
+   "cwe": [
+    "CWE-78",
+    "CWE-502",
+    "CWE-94"
+   ]
+  },
+  "CIS-11": {
+   "title": "Data Recovery",
+   "group": "IG1",
+   "description": "Establish and maintain data recovery practices sufficient to restore in-scope enterprise assets to a pre-incident and trusted state.",
+   "keywords": [
+    "backup",
+    "recovery",
+    "data loss",
+    "restore",
+    "disaster recovery",
+    "rto",
+    "rpo"
+   ],
+   "cwe": []
+  },
+  "CIS-12": {
+   "title": "Network Infrastructure Management",
+   "group": "IG1",
+   "description": "Establish, implement, and actively manage network devices in order to prevent attackers from exploiting vulnerable network services and access points.",
+   "keywords": [
+    "network security",
+    "firewall",
+    "network management",
+    "ssrf",
+    "network segmentation"
+   ],
+   "cwe": [
+    "CWE-918"
+   ]
+  },
+  "CIS-13": {
+   "title": "Network Monitoring and Defense",
+   "group": "IG1",
+   "description": "Operate processes and tooling to establish and maintain comprehensive network monitoring and defense against security threats.",
+   "keywords": [
+    "network monitoring",
+    "ids",
+    "ips",
+    "intrusion detection",
+    "traffic analysis",
+    "anomaly detection"
+   ],
+   "cwe": []
+  },
+  "CIS-14": {
+   "title": "Security Awareness and Skills Training",
+   "group": "IG1",
+   "description": "Establish and maintain a security awareness program to influence behavior among the workforce to be security conscious and properly skilled to reduce cybersecurity risks.",
+   "keywords": [
+    "security awareness",
+    "training",
+    "developer training",
+    "security culture"
+   ],
+   "cwe": []
+  },
+  "CIS-15": {
+   "title": "Service Provider Management",
+   "group": "IG1",
+   "description": "Develop a process to evaluate service providers who hold sensitive data or are responsible for an enterprise's critical IT platforms or processes.",
+   "keywords": [
+    "third party",
+    "supply chain",
+    "vendor",
+    "service provider",
+    "dependency",
+    "open source"
+   ],
+   "cwe": [
+    "CWE-1104"
+   ]
+  },
+  "CIS-16": {
+   "title": "Application Software Security",
+   "group": "IG2",
+   "description": "Manage the security life cycle of in-house developed, hosted, or acquired software in order to prevent, detect, and remediate security weaknesses before they can impact the enterprise.",
+   "keywords": [
+    "application security",
+    "secure sdlc",
+    "software security",
+    "security lifecycle"
+   ],
+   "cwe": []
+  },
+  "CIS-16.1": {
+   "title": "Establish and Maintain a Secure Application Development Process",
+   "group": "IG2",
+   "description": "Establish and maintain a secure application development process. In the process, address such items as secure application design standards, secure coding practices, developer training, and secure code reviews.",
+   "keywords": [
+    "secure coding",
+    "sast",
+    "code review",
+    "secure development",
+    "security training"
+   ],
+   "cwe": []
+  },
+  "CIS-16.2": {
+   "title": "Establish and Maintain a Process to Accept and Address Software Vulnerabilities",
+   "group": "IG2",
+   "description": "Establish and maintain a process to accept and address reports of software vulnerabilities, including providing a means for external entities to report.",
+   "keywords": [
+    "vulnerability reporting",
+    "bug bounty",
+    "responsible disclosure",
+    "vulnerability management"
+   ],
+   "cwe": []
+  },
+  "CIS-16.4": {
+   "title": "Establish and Manage an Inventory of Third-Party Software Components",
+   "group": "IG2",
+   "description": "Establish and manage an updated inventory of third-party components used in development, often referred to as a Bill of Materials.",
+   "keywords": [
+    "sbom",
+    "software bill of materials",
+    "third-party library",
+    "dependency inventory",
+    "component inventory"
+   ],
+   "cwe": [
+    "CWE-1104"
+   ]
+  },
+  "CIS-16.6": {
+   "title": "Establish and Maintain a Severity Rating System and Process for Application Vulnerabilities",
+   "group": "IG2",
+   "description": "Establish and maintain a severity rating system and process for application vulnerabilities that facilitates prioritizing the order in which discovered vulnerabilities are fixed.",
+   "keywords": [
+    "severity rating",
+    "vulnerability prioritization",
+    "blocker",
+    "critical",
+    "major",
+    "risk rating"
+   ],
+   "cwe": []
+  },
+  "CIS-16.7": {
+   "title": "Use Standard Hardening Configuration Templates for Application Infrastructure",
+   "group": "IG2",
+   "description": "Use standard, industry-recommended hardening configuration templates for application infrastructure components.",
+   "keywords": [
+    "hardening",
+    "security configuration",
+    "configuration template",
+    "docker hardening",
+    "kubernetes hardening"
+   ],
+   "cwe": [
+    "CWE-1188",
+    "CWE-16"
+   ]
+  },
+  "CIS-16.9": {
+   "title": "Train Developers in Application Security Concepts and Secure Coding",
+   "group": "IG2",
+   "description": "Ensure that all software development personnel receive training in writing secure code for their specific development environment and responsibilities.",
+   "keywords": [
+    "developer training",
+    "secure coding",
+    "appsec training",
+    "injection",
+    "xss",
+    "sql injection"
+   ],
+   "cwe": []
+  },
+  "CIS-16.12": {
+   "title": "Implement Code-Level Security Checks",
+   "group": "IG2",
+   "description": "Apply static code analysis tools to verify that coding practices meet defined security standards.",
+   "keywords": [
+    "static analysis",
+    "sast",
+    "code analysis",
+    "sonarqube",
+    "code quality",
+    "security scan",
+    "injection",
+    "xss",
+    "sql injection",
+    "input validation"
+   ],
+   "cwe": [
+    "CWE-20",
+    "CWE-89",
+    "CWE-79"
+   ]
+  },
+  "CIS-17": {
+   "title": "Incident Response Management",
+   "group": "IG1",
+   "description": "Establish a program to develop and maintain an incident response capability in order to prepare, detect, and quickly respond to an attack.",
+   "keywords": [
+    "incident response",
+    "incident management",
+    "security incident",
+    "response plan"
+   ],
+   "cwe": []
+  },
+  "CIS-18": {
+   "title": "Penetration Testing",
+   "group": "IG2",
+   "description": "Test the effectiveness and resiliency of enterprise assets through identifying and exploiting weaknesses in controls and simulating the objectives and actions of an attacker.",
+   "keywords": [
+    "penetration testing",
+    "pentest",
+    "security testing",
+    "vulnerability testing",
+    "sast",
+    "dast",
+    "ethical hacking"
+   ],
+   "cwe": []
+  },
+  "CIS-18.2": {
+   "title": "Perform Periodic External Penetration Tests",
+   "group": "IG2",
+   "description": "Perform periodic external penetration tests based on program requirements, no less than annually.",
+   "keywords": [
+    "external pentest",
+    "external security test",
+    "vulnerability assessment"
+   ],
+   "cwe": []
+  },
+  "CIS-18.3": {
+   "title": "Remediate Penetration Test Findings",
+   "group": "IG2",
+   "description": "Remediate penetration test findings based on the enterprise's policy for remediation scope and prioritization.",
+   "keywords": [
+    "remediation",
+    "fix",
+    "patch",
+    "vulnerability remediation",
+    "security fix"
+   ],
+   "cwe": []
+  }
+ },
+ "owasp_asvs": {
+  "ASVS-V1.1": {
+   "title": "Secure Software Development Lifecycle",
+   "group": "Architecture, Design and Threat Modelling",
+   "description": "Verify the use of a secure software development lifecycle that addresses security in all phases of development. Security requirements must be defined and reviewed. Threat modelling must be performed for new features.",
+   "keywords": [
+    "sdlc",
+    "secure development",
+    "security requirement",
+    "threat model",
+    "security design review"
+   ],
+   "cwe": []
+  },
+  "ASVS-V1.2": {
+   "title": "Authentication Architecture",
+   "group": "Architecture, Design and Threat Modelling",
+   "description": "Verify that all application components use a single, vetted, and tested authentication mechanism. Authentication must use strong server-side controls.",
+   "keywords": [
+    "authentication architecture",
+    "centralized authentication",
+    "authentication mechanism",
+    "server-side auth"
+   ],
+   "cwe": [
+    "CWE-287"
+   ]
+  },
+  "ASVS-V1.4": {
+   "title": "Access Control Architecture",
+   "group": "Architecture, Design and Threat Modelling",
+   "description": "Verify that trusted enforcement points such as access control gateways, servers, and serverless functions enforce access controls. Do not enforce access controls on the client.",
+   "keywords": [
+    "access control architecture",
+    "server-side access control",
+    "client-side authorization bypass"
+   ],
+   "cwe": [
+    "CWE-602"
+   ]
+  },
+  "ASVS-V2.1": {
+   "title": "Password Security",
+   "group": "Authentication",
+   "description": "Verify that user set passwords are at least 12 characters in length, allow spaces and special characters, and that there is no upper limit on password length. Passwords must not be stored using reversible or weak hashing algorithms.",
+   "keywords": [
+    "password policy",
+    "weak password",
+    "password length",
+    "password storage",
+    "password hash",
+    "md5 password",
+    "sha1 password",
+    "plaintext password"
+   ],
+   "cwe": [
+    "CWE-521",
+    "CWE-916",
+    "CWE-259"
+   ]
+  },
+  "ASVS-V2.2": {
+   "title": "General Authenticator Security",
+   "group": "Authentication",
+   "description": "Verify that anti-automation controls are effective at mitigating breached credential testing, brute force, and account lockout attacks. Verify that credential hints are not used.",
+   "keywords": [
+    "brute force",
+    "account lockout",
+    "credential stuffing",
+    "rate limiting",
+    "authentication bypass"
+   ],
+   "cwe": [
+    "CWE-307",
+    "CWE-798"
+   ]
+  },
+  "ASVS-V2.3": {
+   "title": "Authenticator Lifecycle",
+   "group": "Authentication",
+   "description": "Verify that the system can detect and alert on authentication anomalies such as by country, by device, and recently used IP addresses.",
+   "keywords": [
+    "authentication lifecycle",
+    "credential lifecycle",
+    "account provisioning",
+    "password reset",
+    "authenticator management"
+   ],
+   "cwe": []
+  },
+  "ASVS-V2.4": {
+   "title": "Credential Storage",
+   "group": "Authentication",
+   "description": "Verify that passwords are stored using an approved adaptive one-way hashing algorithm with a work factor of at least 600,000 iterations for PBKDF2, or using bcrypt, scrypt or Argon2id with appropriate cost factors.",
+   "keywords": [
+    "password storage",
+    "password hash",
+    "bcrypt",
+    "argon2",
+    "pbkdf2",
+    "scrypt",
+    "md5 hash",
+    "sha1 hash",
+    "weak hash",
+    "hardcoded password",
+    "plaintext credential"
+   ],
+   "cwe": [
+    "CWE-916",
+    "CWE-327",
+    "CWE-328",
+    "CWE-522"
+   ]
+  },
+  "ASVS-V2.7": {
+   "title": "Out of Band Verification",
+   "group": "Authentication",
+   "description": "Verify that out of band verifier generated OTPs or other codes have sufficient randomness, expire after a short period, are single-use only, and transmitted via a secure channel.",
+   "keywords": [
+    "otp",
+    "one time password",
+    "mfa",
+    "multi-factor authentication",
+    "2fa",
+    "verification code"
+   ],
+   "cwe": [
+    "CWE-330"
+   ]
+  },
+  "ASVS-V2.8": {
+   "title": "Single or Multi Factor One Time Verifier",
+   "group": "Authentication",
+   "description": "Verify that time-based OTPs have a defined lifetime before expiring. One-time authentication codes must be invalidated after use.",
+   "keywords": [
+    "otp expiry",
+    "one-time token",
+    "token lifetime",
+    "token reuse"
+   ],
+   "cwe": [
+    "CWE-613"
+   ]
+  },
+  "ASVS-V3.1": {
+   "title": "Fundamental Session Management Security",
+   "group": "Session Management",
+   "description": "Verify that the application never reveals session tokens in URL parameters or error messages. Session tokens must be stored securely and never transmitted in plaintext.",
+   "keywords": [
+    "session management",
+    "session token",
+    "session in url",
+    "session exposure",
+    "cookie security",
+    "session hijacking"
+   ],
+   "cwe": [
+    "CWE-598",
+    "CWE-614"
+   ]
+  },
+  "ASVS-V3.2": {
+   "title": "Session Binding",
+   "group": "Session Management",
+   "description": "Verify the application generates a new session token on user authentication. Session tokens must have at least 64 bits of entropy and be stored securely.",
+   "keywords": [
+    "session fixation",
+    "session regeneration",
+    "session binding",
+    "session token entropy"
+   ],
+   "cwe": [
+    "CWE-384",
+    "CWE-330"
+   ]
+  },
+  "ASVS-V3.3": {
+   "title": "Session Timeout",
+   "group": "Session Management",
+   "description": "Verify that logout and expiration invalidate the session token. Sessions should expire after a defined period of inactivity.",
+   "keywords": [
+    "session timeout",
+    "session expiry",
+    "logout",
+    "idle session",
+    "session invalidation"
+   ],
+   "cwe": [
+    "CWE-613"
+   ]
+  },
+  "ASVS-V3.4": {
+   "title": "Cookie-based Session Management",
+   "group": "Session Management",
+   "description": "Verify that cookie-based session tokens have the Secure attribute set, use the HttpOnly attribute, and use the SameSite attribute to limit exposure to cross-site request forgery attacks.",
+   "keywords": [
+    "cookie security",
+    "secure cookie",
+    "httponly",
+    "samesite",
+    "csrf cookie",
+    "cookie flag"
+   ],
+   "cwe": [
+    "CWE-614",
+    "CWE-352"
+   ]
+  },
+  "ASVS-V4.1": {
+   "title": "General Access Control Design",
+   "group": "Access Control",
+   "description": "Verify that the principle of least privilege exists – users should only be able to access functions, data files, URLs, controllers, services, and other resources for which they have specific authorisation.",
+   "keywords": [
+    "least privilege",
+    "access control",
+    "authorization",
+    "idor",
+    "insecure direct object",
+    "privilege escalation",
+    "missing authorization"
+   ],
+   "cwe": [
+    "CWE-284",
+    "CWE-285",
+    "CWE-639",
+    "CWE-862"
+   ]
+  },
+  "ASVS-V4.2": {
+   "title": "Operation Level Access Control",
+   "group": "Access Control",
+   "description": "Verify that sensitive data and APIs are protected against Insecure Direct Object Reference (IDOR) attacks targeting creation, reading, updating, and deletion of records.",
+   "keywords": [
+    "idor",
+    "insecure direct object reference",
+    "object level authorization",
+    "broken object level",
+    "mass assignment"
+   ],
+   "cwe": [
+    "CWE-639",
+    "CWE-915"
+   ]
+  },
+  "ASVS-V5.1": {
+   "title": "Input Validation",
+   "group": "Validation, Sanitization and Encoding",
+   "description": "Verify that the application has defenses against HTTP parameter pollution attacks. Verify that all input is validated using positive validation (allow lists), not negative validation (deny lists or sanitization).",
+   "keywords": [
+    "input validation",
+    "positive validation",
+    "allowlist",
+    "whitelist",
+    "deny list",
+    "parameter pollution",
+    "missing validation"
+   ],
+   "cwe": [
+    "CWE-20",
+    "CWE-235"
+   ]
+  },
+  "ASVS-V5.2": {
+   "title": "Sanitization and Sandboxing",
+   "group": "Validation, Sanitization and Encoding",
+   "description": "Verify that all untrusted HTML input from WYSIWYG editors or similar is properly sanitized with an HTML sanitizer library or framework feature.",
+   "keywords": [
+    "sanitization",
+    "html sanitizer",
+    "xss prevention",
+    "user input sanitization",
+    "sanitize html"
+   ],
+   "cwe": [
+    "CWE-79",
+    "CWE-116"
+   ]
+  },
+  "ASVS-V5.3": {
+   "title": "Output Encoding and Injection Prevention",
+   "group": "Validation, Sanitization and Encoding",
+   "description": "Verify that output encoding is relevant for the interpreter and context required. All injection attacks must be prevented including SQL injection, command injection, LDAP injection, XPath injection, and XSS.",
+   "keywords": [
+    "output encoding",
+    "xss",
+    "cross-site scripting",
+    "sql injection",
+    "command injection",
+    "ldap injection",
+    "xpath injection",
+    "injection prevention",
+    "html encoding"
+   ],
+   "cwe": [
+    "CWE-79",
+    "CWE-89",
+    "CWE-78",
+    "CWE-90",
+    "CWE-643",
+    "CWE-116"
+   ]
+  },
+  "ASVS-V5.4": {
+   "title": "Memory, String and Unmanaged Code",
+   "group": "Validation, Sanitization and Encoding",
+   "description": "Verify that the application uses memory-safe string, safer memory copy and pointer arithmetic to detect or prevent stack, buffer, or heap overflows.",
+   "keywords": [
+    "buffer overflow",
+    "memory safety",
+    "stack overflow",
+    "heap overflow",
+    "memory corruption",
+    "unsafe memory"
+   ],
+   "cwe": [
+    "CWE-119",
+    "CWE-120",
+    "CWE-125",
+    "CWE-787"
+   ]
+  },
+  "ASVS-V5.5": {
+   "title": "Deserialization Prevention",
+   "group": "Validation, Sanitization and Encoding",
+   "description": "Verify that serialized objects use integrity checks or are encrypted to prevent hostile object creation or data tampering.",
+   "keywords": [
+    "deserialization",
+    "serialization",
+    "insecure deserialization",
+    "object injection",
+    "java deserialization",
+    "pickle"
+   ],
+   "cwe": [
+    "CWE-502"
+   ]
+  },
+  "ASVS-V6.1": {
+   "title": "Data Classification",
+   "group": "Stored Cryptography",
+   "description": "Verify that regulated private data is stored encrypted while at rest, such as Personally Identifiable Information (PII), sensitive personal information, or data assessed likely to be subject to EU's GDPR.",
+   "keywords": [
+    "data classification",
+    "pii",
+    "sensitive data",
+    "data at rest",
+    "gdpr",
+    "personal data",
+    "regulated data"
+   ],
+   "cwe": [
+    "CWE-312"
+   ]
+  },
+  "ASVS-V6.2": {
+   "title": "Algorithms",
+   "group": "Stored Cryptography",
+   "description": "Verify that all cryptographic modules fail securely, and errors are handled in a way that does not enable Padding Oracle attacks. Weak algorithms such as MD5, SHA1, DES, RC4, and RSA-1024 must not be used.",
+   "keywords": [
+    "weak cipher",
+    "weak hash",
+    "md5",
+    "sha1",
+    "des",
+    "rc4",
+    "aes",
+    "cryptographic failure",
+    "padding oracle",
+    "rsa-1024"
+   ],
+   "cwe": [
+    "CWE-327",
+    "CWE-328",
+    "CWE-326"
+   ]
+  },
+  "ASVS-V6.3": {
+   "title": "Random Values",
+   "group": "Stored Cryptography",
+   "description": "Verify that all random numbers, random file names, random GUIDs, and random strings are generated using the cryptographic module's approved cryptographically secure random number generator.",
+   "keywords": [
+    "random number",
+    "weak random",
+    "predictable random",
+    "insecure random",
+    "math.random",
+    "rand"
+   ],
+   "cwe": [
+    "CWE-330",
+    "CWE-338"
+   ]
+  },
+  "ASVS-V6.4": {
+   "title": "Secret Management",
+   "group": "Stored Cryptography",
+   "description": "Verify that secrets, API keys, and passwords are not included in source code, or online source code repositories. Secrets must be stored in a vault or encrypted configuration.",
+   "keywords": [
+    "hardcoded secret",
+    "api key",
+    "hardcoded password",
+    "private key in code",
+    "secret in code",
+    "credential in source",
+    "password in config"
+   ],
+   "cwe": [
+    "CWE-798",
+    "CWE-259",
+    "CWE-321"
+   ]
+  },
+  "ASVS-V7.1": {
+   "title": "Log Content",
+   "group": "Error Handling and Logging",
+   "description": "Verify that the application does not log credentials or payment details. Verify that sensitive information is not logged.",
+   "keywords": [
+    "log sensitive data",
+    "password in log",
+    "credential in log",
+    "pii in log",
+    "sensitive data logging"
+   ],
+   "cwe": [
+    "CWE-532"
+   ]
+  },
+  "ASVS-V7.2": {
+   "title": "Log Processing",
+   "group": "Error Handling and Logging",
+   "description": "Verify that all authentication decisions are logged, with sufficient user context to identify suspicious or malicious accounts.",
+   "keywords": [
+    "authentication logging",
+    "security event log",
+    "audit log",
+    "missing log",
+    "insufficient logging"
+   ],
+   "cwe": [
+    "CWE-778"
+   ]
+  },
+  "ASVS-V7.4": {
+   "title": "Error Handling",
+   "group": "Error Handling and Logging",
+   "description": "Verify that a generic message is shown when an unexpected or security sensitive error occurs, potentially with a unique ID which support personnel can use to investigate.",
+   "keywords": [
+    "error handling",
+    "stack trace exposed",
+    "verbose error",
+    "sensitive data in error",
+    "exception handling",
+    "information disclosure in error"
+   ],
+   "cwe": [
+    "CWE-209",
+    "CWE-248"
+   ]
+  },
+  "ASVS-V8.1": {
+   "title": "General Data Protection",
+   "group": "Data Protection",
+   "description": "Verify that the application protects sensitive data from being cached in server components such as load balancers and application caches.",
+   "keywords": [
+    "data protection",
+    "cache control",
+    "sensitive data caching",
+    "no-cache",
+    "browser cache"
+   ],
+   "cwe": [
+    "CWE-524"
+   ]
+  },
+  "ASVS-V8.2": {
+   "title": "Client-side Data Protection",
+   "group": "Data Protection",
+   "description": "Verify that sensitive data is not stored in browser storage (localStorage, sessionStorage, IndexedDB), cookie stores, or Flash cookie stores.",
+   "keywords": [
+    "client-side storage",
+    "localstorage",
+    "sessionstorage",
+    "sensitive data client",
+    "browser storage"
+   ],
+   "cwe": [
+    "CWE-922"
+   ]
+  },
+  "ASVS-V8.3": {
+   "title": "Sensitive Private Data",
+   "group": "Data Protection",
+   "description": "Verify that sensitive data is transmitted to the server in the HTTP message body or headers, and that query string parameters from any HTTP verb do not contain sensitive data.",
+   "keywords": [
+    "sensitive data in url",
+    "credential in url",
+    "password in url",
+    "data in query string",
+    "sensitive parameter"
+   ],
+   "cwe": [
+    "CWE-598",
+    "CWE-200"
+   ]
+  },
+  "ASVS-V9.1": {
+   "title": "Client Communication Security",
+   "group": "Communication",
+   "description": "Verify that TLS is used for all client connectivity, and does not fall back to insecure or unencrypted communications. The application must use TLS 1.2 or higher.",
+   "keywords": [
+    "tls",
+    "ssl",
+    "https",
+    "transport security",
+    "unencrypted communication",
+    "http",
+    "clear text",
+    "tls version",
+    "ssl version"
+   ],
+   "cwe": [
+    "CWE-319",
+    "CWE-326",
+    "CWE-295"
+   ]
+  },
+  "ASVS-V9.2": {
+   "title": "Server Communication Security",
+   "group": "Communication",
+   "description": "Verify that connections to and from the server use trusted TLS certificates. The application must validate TLS certificates before using them.",
+   "keywords": [
+    "certificate validation",
+    "ssl verification",
+    "tls certificate",
+    "hostname verification",
+    "insecure connection",
+    "self-signed certificate"
+   ],
+   "cwe": [
+    "CWE-295",
+    "CWE-297"
+   ]
+  },
+  "ASVS-V10.1": {
+   "title": "Code Integrity Controls",
+   "group": "Malicious Code",
+   "description": "Verify that a code analysis tool is in use that can detect potentially malicious code, such as time functions, unsafe file operations, or network connections.",
+   "keywords": [
+    "malicious code",
+    "code integrity",
+    "static analysis",
+    "sast",
+    "code analysis"
+   ],
+   "cwe": []
+  },
+  "ASVS-V10.2": {
+   "title": "Malicious Code Search",
+   "group": "Malicious Code",
+   "description": "Verify that the application source code and third party libraries do not contain back doors, Easter eggs, and logic bombs.",
+   "keywords": [
+    "backdoor",
+    "logic bomb",
+    "hidden functionality",
+    "malicious functionality",
+    "trojan"
+   ],
+   "cwe": [
+    "CWE-506"
+   ]
+  },
+  "ASVS-V10.3": {
+   "title": "Deployed Application Integrity Controls",
+   "group": "Malicious Code",
+   "description": "Verify that if the application has a client or server auto-update feature, updates should be obtained over secure channels and digitally signed.",
+   "keywords": [
+    "update integrity",
+    "software update",
+    "digital signature",
+    "code signing",
+    "auto-update security"
+   ],
+   "cwe": [
+    "CWE-494"
+   ]
+  },
+  "ASVS-V11.1": {
+   "title": "Business Logic Security",
+   "group": "Business Logic",
+   "description": "Verify that the application will only process business logic flows for the same user in sequential step order and without skipping steps.",
+   "keywords": [
+    "business logic",
+    "workflow bypass",
+    "logic flaw",
+    "race condition",
+    "step bypass"
+   ],
+   "cwe": [
+    "CWE-840",
+    "CWE-362"
+   ]
+  },
+  "ASVS-V12.1": {
+   "title": "File Upload",
+   "group": "Files and Resources",
+   "description": "Verify that the application will not accept large files that could fill up storage or cause a denial of service.",
+   "keywords": [
+    "file upload",
+    "unrestricted upload",
+    "file size limit",
+    "malicious file upload"
+   ],
+   "cwe": [
+    "CWE-434",
+    "CWE-400"
+   ]
+  },
+  "ASVS-V12.3": {
+   "title": "File Execution Prevention",
+   "group": "Files and Resources",
+   "description": "Verify that user-submitted filename metadata is not used directly by system or framework filesystems and that a URL API is used to protect against path traversal.",
+   "keywords": [
+    "path traversal",
+    "directory traversal",
+    "file inclusion",
+    "lfi",
+    "rfi",
+    "zip slip",
+    "filename injection"
+   ],
+   "cwe": [
+    "CWE-22",
+    "CWE-23",
+    "CWE-98"
+   ]
+  },
+  "ASVS-V12.4": {
+   "title": "File Storage",
+   "group": "Files and Resources",
+   "description": "Verify that files obtained from untrusted sources are validated to be of expected type and are not accessible directly as user-supplied content.",
+   "keywords": [
+    "file storage",
+    "file validation",
+    "file type validation",
+    "content type",
+    "magic bytes"
+   ],
+   "cwe": [
+    "CWE-434"
+   ]
+  },
+  "ASVS-V13.1": {
+   "title": "Generic Web Service Security",
+   "group": "API and Web Service",
+   "description": "Verify that all application components use the same encodings and parsers to avoid parsing attacks that exploit different URI or file parsing behavior that could be used in SSRF and RFI attacks.",
+   "keywords": [
+    "api security",
+    "web service security",
+    "ssrf",
+    "server-side request forgery",
+    "rfi",
+    "open redirect",
+    "url validation"
+   ],
+   "cwe": [
+    "CWE-918",
+    "CWE-601"
+   ]
+  },
+  "ASVS-V13.2": {
+   "title": "RESTful Web Service",
+   "group": "API and Web Service",
+   "description": "Verify that RESTful web services that utilize cookies are protected from Cross-Site Request Forgery via the use of at least one or more of: triple or double submit cookie pattern, CSRF nonces, or ORIGIN request header checks.",
+   "keywords": [
+    "csrf",
+    "cross-site request forgery",
+    "rest api security",
+    "csrf token",
+    "csrf protection"
+   ],
+   "cwe": [
+    "CWE-352"
+   ]
+  },
+  "ASVS-V13.3": {
+   "title": "SOAP Web Service",
+   "group": "API and Web Service",
+   "description": "Verify that XSD schema validation takes place to ensure a properly formed XML document, followed by validation of each input field before any processing of that data takes place.",
+   "keywords": [
+    "xml validation",
+    "soap security",
+    "xxe",
+    "xml external entity",
+    "xpath injection"
+   ],
+   "cwe": [
+    "CWE-611",
+    "CWE-643"
+   ]
+  },
+  "ASVS-V13.4": {
+   "title": "GraphQL",
+   "group": "API and Web Service",
+   "description": "Verify that GraphQL or other data layer authorization logic should be implemented at the business logic layer instead of the GraphQL layer.",
+   "keywords": [
+    "graphql security",
+    "graphql authorization",
+    "graphql injection",
+    "introspection exposure"
+   ],
+   "cwe": [
+    "CWE-284"
+   ]
+  },
+  "ASVS-V14.1": {
+   "title": "Build and Deploy",
+   "group": "Configuration",
+   "description": "Verify that build pipelines warn about out-of-date or insecure components and that appropriate action is taken. Verify that the build pipeline performs automated security testing including SAST and SCA.",
+   "keywords": [
+    "build pipeline",
+    "ci/cd security",
+    "sast in pipeline",
+    "sca",
+    "dependency check",
+    "outdated dependency"
+   ],
+   "cwe": [
+    "CWE-1104"
+   ]
+  },
+  "ASVS-V14.2": {
+   "title": "Dependency",
+   "group": "Configuration",
+   "description": "Verify that all third-party components used by the application are from expected repositories, and that known vulnerable third-party libraries are not used.",
+   "keywords": [
+    "dependency",
+    "third-party library",
+    "vulnerable dependency",
+    "outdated library",
+    "known cve",
+    "open source vulnerability",
+    "package"
+   ],
+   "cwe": [
+    "CWE-1104"
+   ]
+  },
+  "ASVS-V14.3": {
+   "title": "Unintended Security Disclosure",
+   "group": "Configuration",
+   "description": "Verify that web or application server and application framework debug modes are disabled in production to eliminate debug features, developer consoles, and unintended security disclosures.",
+   "keywords": [
+    "debug mode",
+    "debug in production",
+    "stack trace exposed",
+    "verbose error",
+    "developer console",
+    "insecure default",
+    "misconfiguration",
+    "security headers"
+   ],
+   "cwe": [
+    "CWE-16",
+    "CWE-209",
+    "CWE-1188"
+   ]
+  },
+  "ASVS-V14.4": {
+   "title": "HTTP Security Headers",
+   "group": "Configuration",
+   "description": "Verify that every HTTP response contains a Content-Type header. Verify that security headers including X-Frame-Options, X-XSS-Protection, Content-Security-Policy, and Strict-Transport-Security are set appropriately.",
+   "keywords": [
+    "security headers",
+    "content security policy",
+    "csp",
+    "x-frame-options",
+    "hsts",
+    "http headers",
+    "missing header",
+    "clickjacking"
+   ],
+   "cwe": [
+    "CWE-693",
+    "CWE-1021"
+   ]
+  },
+  "ASVS-V14.5": {
+   "title": "HTTP Request Header Validation",
+   "group": "Configuration",
+   "description": "Verify that the application server only accepts the HTTP methods in use by the application and logs or alerts on any requests using methods not intended for use by the application.",
+   "keywords": [
+    "http method",
+    "http verb",
+    "http options",
+    "cors",
+    "allowed methods",
+    "request header validation"
+   ],
+   "cwe": [
+    "CWE-16"
+   ]
+  }
+ },
+ "iso27001": {
+  "A.5.1": {
+   "title": "Policies for information security",
+   "group": "Organizational Controls",
+   "description": "Information security policies shall be defined, approved by management, published, communicated to and acknowledged by relevant personnel and interested parties, and reviewed at planned intervals or if significant changes occur.",
+   "keywords": [
+    "security policy",
+    "governance",
+    "policy violation",
+    "compliance",
+    "policy enforcement"
+   ],
+   "cwe": []
+  },
+  "A.5.2": {
+   "title": "Information security roles and responsibilities",
+   "group": "Organizational Controls",
+   "description": "Information security roles and responsibilities shall be defined and allocated according to the organization needs.",
+   "keywords": [
+    "role",
+    "responsibility",
+    "access control",
+    "privilege",
+    "ownership"
+   ],
+   "cwe": []
+  },
+  "A.5.7": {
+   "title": "Threat intelligence",
+   "group": "Organizational Controls",
+   "description": "Information relating to information security threats shall be collected and analysed to produce threat intelligence.",
+   "keywords": [
+    "threat intelligence",
+    "cve",
+    "threat feed",
+    "vulnerability disclosure",
+    "nvd"
+   ],
+   "cwe": []
+  },
+  "A.5.8": {
+   "title": "Information security in project management",
+   "group": "Organizational Controls",
+   "description": "Information security shall be integrated into project management.",
+   "keywords": [
+    "sdlc",
+    "secure development",
+    "project security",
+    "sast",
+    "security requirement"
+   ],
+   "cwe": []
+  },
+  "A.5.14": {
+   "title": "Information transfer",
+   "group": "Organizational Controls",
+   "description": "Information transfer rules, procedures, or agreements shall be in place for all types of transfer facilities within the organization and between the organization and other parties.",
+   "keywords": [
+    "data transfer",
+    "data leak",
+    "api",
+    "unencrypted communication",
+    "tls",
+    "http",
+    "clear text"
+   ],
+   "cwe": [
+    "CWE-319",
+    "CWE-311"
+   ]
+  },
+  "A.5.15": {
+   "title": "Access control",
+   "group": "Organizational Controls",
+   "description": "Rules to control physical and logical access to information and other associated assets shall be established and implemented based on business and information security requirements.",
+   "keywords": [
+    "access control",
+    "authorization",
+    "privilege escalation",
+    "least privilege",
+    "rbac",
+    "idor",
+    "permission"
+   ],
+   "cwe": [
+    "CWE-284",
+    "CWE-285",
+    "CWE-269",
+    "CWE-639"
+   ]
+  },
+  "A.5.16": {
+   "title": "Identity management",
+   "group": "Organizational Controls",
+   "description": "The full life cycle of identities shall be managed.",
+   "keywords": [
+    "identity",
+    "user management",
+    "account lifecycle",
+    "orphaned account",
+    "inactive account"
+   ],
+   "cwe": [
+    "CWE-287"
+   ]
+  },
+  "A.5.17": {
+   "title": "Authentication information",
+   "group": "Organizational Controls",
+   "description": "Allocation and management of authentication information shall be controlled by a management process, including advising personnel on appropriate handling of authentication information.",
+   "keywords": [
+    "password",
+    "credential",
+    "hardcoded password",
+    "default password",
+    "weak password",
+    "plaintext password",
+    "stored credential"
+   ],
+   "cwe": [
+    "CWE-798",
+    "CWE-259",
+    "CWE-321",
+    "CWE-522"
+   ]
+  },
+  "A.5.20": {
+   "title": "Addressing information security within supplier agreements",
+   "group": "Organizational Controls",
+   "description": "Relevant information security requirements shall be established and agreed with each supplier based on the type of supplier relationship.",
+   "keywords": [
+    "third party",
+    "supply chain",
+    "vendor",
+    "dependency",
+    "open source",
+    "library"
+   ],
+   "cwe": [
+    "CWE-1104"
+   ]
+  },
+  "A.5.23": {
+   "title": "Information security for use of cloud services",
+   "group": "Organizational Controls",
+   "description": "Processes for acquisition, use, management and exit from cloud services shall be established in accordance with the organization's information security requirements.",
+   "keywords": [
+    "cloud",
+    "s3",
+    "blob storage",
+    "cloud misconfiguration",
+    "public bucket",
+    "cloud access"
+   ],
+   "cwe": [
+    "CWE-1188"
+   ]
+  },
+  "A.5.24": {
+   "title": "Information security incident management planning and preparation",
+   "group": "Organizational Controls",
+   "description": "The organization shall plan and prepare for managing information security incidents by defining, establishing and communicating information security incident management processes, roles and responsibilities.",
+   "keywords": [
+    "incident management",
+    "incident response plan",
+    "incident preparation",
+    "security incident"
+   ],
+   "cwe": []
+  },
+  "A.5.25": {
+   "title": "Assessment and decision on information security events",
+   "group": "Organizational Controls",
+   "description": "The organization shall assess information security events and decide if they are to be categorized as information security incidents.",
+   "keywords": [
+    "incident triage",
+    "event assessment",
+    "severity",
+    "blocker",
+    "critical finding",
+    "anomaly"
+   ],
+   "cwe": []
+  },
+  "A.5.26": {
+   "title": "Response to information security incidents",
+   "group": "Organizational Controls",
+   "description": "Information security incidents shall be responded to in accordance with the documented procedures.",
+   "keywords": [
+    "incident response",
+    "remediation",
+    "fix",
+    "patch",
+    "containment",
+    "eradication"
+   ],
+   "cwe": []
+  },
+  "A.5.28": {
+   "title": "Collection of evidence",
+   "group": "Organizational Controls",
+   "description": "The organization shall establish and implement procedures for the identification, collection, acquisition, and preservation of evidence related to information security events.",
+   "keywords": [
+    "evidence",
+    "forensics",
+    "audit log",
+    "logging",
+    "log retention",
+    "chain of custody"
+   ],
+   "cwe": [
+    "CWE-778"
+   ]
+  },
+  "A.6.1": {
+   "title": "Screening",
+   "group": "People Controls",
+   "description": "Background verification checks on all candidates shall be carried out prior to joining the organization and on an ongoing basis.",
+   "keywords": [
+    "personnel security",
+    "background check",
+    "vetting"
+   ],
+   "cwe": []
+  },
+  "A.6.3": {
+   "title": "Information security awareness, education and training",
+   "group": "People Controls",
+   "description": "Personnel of the organization and relevant interested parties shall receive appropriate information security awareness, education and training and regular updates of the organization's information security policy.",
+   "keywords": [
+    "security awareness",
+    "training",
+    "developer training",
+    "secure coding training"
+   ],
+   "cwe": []
+  },
+  "A.6.8": {
+   "title": "Information security event reporting",
+   "group": "People Controls",
+   "description": "The organization shall provide a mechanism for personnel to report observed or suspected information security events through appropriate channels in a timely manner.",
+   "keywords": [
+    "security event reporting",
+    "vulnerability reporting",
+    "disclosure",
+    "bug report"
+   ],
+   "cwe": []
+  },
+  "A.7.1": {
+   "title": "Physical security perimeters",
+   "group": "Physical Controls",
+   "description": "Security perimeters shall be defined and used to protect areas that contain information and other associated assets.",
+   "keywords": [
+    "physical security",
+    "perimeter",
+    "facility access"
+   ],
+   "cwe": []
+  },
+  "A.7.9": {
+   "title": "Security of assets off-premises",
+   "group": "Physical Controls",
+   "description": "Off-site assets shall be protected.",
+   "keywords": [
+    "off-premise",
+    "remote access",
+    "vpn",
+    "endpoint security",
+    "mobile device"
+   ],
+   "cwe": []
+  },
+  "A.8.2": {
+   "title": "Privileged access rights",
+   "group": "Technological Controls",
+   "description": "The allocation and use of privileged access rights shall be restricted and managed.",
+   "keywords": [
+    "privilege escalation",
+    "admin access",
+    "root",
+    "sudo",
+    "superuser",
+    "privileged account",
+    "least privilege"
+   ],
+   "cwe": [
+    "CWE-269",
+    "CWE-250"
+   ]
+  },
+  "A.8.3": {
+   "title": "Information access restriction",
+   "group": "Technological Controls",
+   "description": "Access to information and other associated assets shall be restricted in accordance with the established topic-specific policy on access control.",
+   "keywords": [
+    "access restriction",
+    "data exposure",
+    "unauthorized access",
+    "sensitive data",
+    "information disclosure",
+    "idor"
+   ],
+   "cwe": [
+    "CWE-200",
+    "CWE-285",
+    "CWE-639"
+   ]
+  },
+  "A.8.4": {
+   "title": "Access to source code",
+   "group": "Technological Controls",
+   "description": "Read and write access to source code, development tools and software libraries shall be appropriately managed.",
+   "keywords": [
+    "source code access",
+    "repository access",
+    "code repository",
+    "git",
+    "svn",
+    "version control"
+   ],
+   "cwe": []
+  },
+  "A.8.5": {
+   "title": "Secure authentication",
+   "group": "Technological Controls",
+   "description": "Secure authentication technologies and procedures shall be implemented based on information access restrictions and the topic-specific policy on access control.",
+   "keywords": [
+    "authentication",
+    "mfa",
+    "multi-factor",
+    "jwt",
+    "session",
+    "authentication bypass",
+    "broken authentication",
+    "anonymous access",
+    "session fixation"
+   ],
+   "cwe": [
+    "CWE-287",
+    "CWE-306",
+    "CWE-384"
+   ]
+  },
+  "A.8.6": {
+   "title": "Capacity management",
+   "group": "Technological Controls",
+   "description": "The use of resources shall be monitored and adjusted in line with current and expected capacity requirements.",
+   "keywords": [
+    "capacity",
+    "resource management",
+    "performance",
+    "memory leak",
+    "resource exhaustion",
+    "dos"
+   ],
+   "cwe": [
+    "CWE-400"
+   ]
+  },
+  "A.8.7": {
+   "title": "Protection against malware",
+   "group": "Technological Controls",
+   "description": "Protection against malware shall be implemented and supported by appropriate user awareness.",
+   "keywords": [
+    "malware",
+    "antivirus",
+    "code injection",
+    "command injection",
+    "exec",
+    "remote code execution",
+    "deserialization"
+   ],
+   "cwe": [
+    "CWE-78",
+    "CWE-502",
+    "CWE-94"
+   ]
+  },
+  "A.8.8": {
+   "title": "Management of technical vulnerabilities",
+   "group": "Technological Controls",
+   "description": "Information about technical vulnerabilities of information systems in use shall be obtained in a timely fashion, the organization's exposure to such vulnerabilities evaluated and appropriate measures taken.",
+   "keywords": [
+    "vulnerability management",
+    "patch",
+    "cve",
+    "known vulnerability",
+    "outdated library",
+    "dependency vulnerability",
+    "update"
+   ],
+   "cwe": [
+    "CWE-1104"
+   ]
+  },
+  "A.8.9": {
+   "title": "Configuration management",
+   "group": "Technological Controls",
+   "description": "Configurations, including security configurations, of hardware, software, services and networks shall be established, documented, implemented, monitored and reviewed.",
+   "keywords": [
+    "configuration",
+    "misconfiguration",
+    "default configuration",
+    "hardening",
+    "insecure default",
+    "debug mode",
+    "verbose error",
+    "stack trace exposed"
+   ],
+   "cwe": [
+    "CWE-1188",
+    "CWE-16",
+    "CWE-614"
+   ]
+  },
+  "A.8.10": {
+   "title": "Information deletion",
+   "group": "Technological Controls",
+   "description": "Information stored in information systems, devices or in any other storage media shall be deleted when no longer required.",
+   "keywords": [
+    "data deletion",
+    "data retention",
+    "sensitive data removal",
+    "data erasure",
+    "gdpr"
+   ],
+   "cwe": []
+  },
+  "A.8.11": {
+   "title": "Data masking",
+   "group": "Technological Controls",
+   "description": "Data masking shall be used in accordance with the organization's topic-specific policy on access control and other related topic-specific policies, and business requirements.",
+   "keywords": [
+    "data masking",
+    "data anonymization",
+    "pii",
+    "sensitive data",
+    "personally identifiable information",
+    "redaction"
+   ],
+   "cwe": [
+    "CWE-200",
+    "CWE-312"
+   ]
+  },
+  "A.8.12": {
+   "title": "Data leakage prevention",
+   "group": "Technological Controls",
+   "description": "Data leakage prevention measures shall be applied to systems, networks and any other devices that process, store or transmit sensitive information.",
+   "keywords": [
+    "data leakage",
+    "dlp",
+    "sensitive data exposure",
+    "data exfiltration",
+    "information disclosure",
+    "log sensitive data"
+   ],
+   "cwe": [
+    "CWE-200",
+    "CWE-532"
+   ]
+  },
+  "A.8.13": {
+   "title": "Information backup",
+   "group": "Technological Controls",
+   "description": "Backup copies of information, software and systems shall be maintained and regularly tested in accordance with the agreed topic-specific policy on backup.",
+   "keywords": [
+    "backup",
+    "recovery",
+    "data loss",
+    "availability",
+    "restore"
+   ],
+   "cwe": []
+  },
+  "A.8.15": {
+   "title": "Logging",
+   "group": "Technological Controls",
+   "description": "Logs that record activities, exceptions, faults and other relevant events shall be produced, stored, protected and analysed.",
+   "keywords": [
+    "logging",
+    "audit log",
+    "log",
+    "missing log",
+    "insufficient logging",
+    "log injection",
+    "log forging",
+    "no logging"
+   ],
+   "cwe": [
+    "CWE-117",
+    "CWE-778"
+   ]
+  },
+  "A.8.16": {
+   "title": "Monitoring activities",
+   "group": "Technological Controls",
+   "description": "Networks, systems and applications shall be monitored for anomalous behaviour and appropriate actions taken to evaluate potential information security incidents.",
+   "keywords": [
+    "monitoring",
+    "anomaly detection",
+    "siem",
+    "intrusion detection",
+    "ids",
+    "ips",
+    "network monitoring"
+   ],
+   "cwe": []
+  },
+  "A.8.20": {
+   "title": "Networks security",
+   "group": "Technological Controls",
+   "description": "Networks and network devices shall be secured, managed and controlled to protect information in systems and applications.",
+   "keywords": [
+    "network security",
+    "firewall",
+    "network segmentation",
+    "ssrf",
+    "request forgery",
+    "unauthorized network access"
+   ],
+   "cwe": [
+    "CWE-918"
+   ]
+  },
+  "A.8.21": {
+   "title": "Security of network services",
+   "group": "Technological Controls",
+   "description": "Security mechanisms, service levels and service requirements of network services shall be identified, implemented and monitored.",
+   "keywords": [
+    "network service",
+    "api security",
+    "service authentication",
+    "tls",
+    "ssl",
+    "https",
+    "transport security"
+   ],
+   "cwe": [
+    "CWE-319",
+    "CWE-326",
+    "CWE-295"
+   ]
+  },
+  "A.8.24": {
+   "title": "Use of cryptography",
+   "group": "Technological Controls",
+   "description": "Rules for the effective use of cryptography, including cryptographic key management, shall be defined and implemented.",
+   "keywords": [
+    "encryption",
+    "cryptography",
+    "weak cipher",
+    "aes",
+    "rsa",
+    "md5",
+    "sha1",
+    "weak hash",
+    "cryptographic failure",
+    "key management"
+   ],
+   "cwe": [
+    "CWE-327",
+    "CWE-328",
+    "CWE-326",
+    "CWE-311"
+   ]
+  },
+  "A.8.25": {
+   "title": "Secure development life cycle",
+   "group": "Technological Controls",
+   "description": "Rules for the secure development of software and systems shall be established and applied.",
+   "keywords": [
+    "secure sdlc",
+    "secure development",
+    "code review",
+    "sast",
+    "dast",
+    "security testing",
+    "input validation"
+   ],
+   "cwe": [
+    "CWE-20",
+    "CWE-89",
+    "CWE-79"
+   ]
+  },
+  "A.8.26": {
+   "title": "Application security requirements",
+   "group": "Technological Controls",
+   "description": "Information security requirements shall be identified, specified and approved when developing or acquiring applications.",
+   "keywords": [
+    "security requirement",
+    "application security",
+    "security specification",
+    "security acceptance criteria"
+   ],
+   "cwe": []
+  },
+  "A.8.27": {
+   "title": "Secure system architecture and engineering principles",
+   "group": "Technological Controls",
+   "description": "Principles for engineering secure systems shall be established, documented, maintained and applied to any information system development activities.",
+   "keywords": [
+    "secure architecture",
+    "defence in depth",
+    "security principle",
+    "least privilege",
+    "separation of duties"
+   ],
+   "cwe": []
+  },
+  "A.8.28": {
+   "title": "Secure coding",
+   "group": "Technological Controls",
+   "description": "Secure coding principles shall be applied to software development.",
+   "keywords": [
+    "secure coding",
+    "injection",
+    "sql injection",
+    "xss",
+    "cross-site scripting",
+    "csrf",
+    "path traversal",
+    "buffer overflow",
+    "input validation",
+    "output encoding",
+    "sanitization"
+   ],
+   "cwe": [
+    "CWE-89",
+    "CWE-79",
+    "CWE-352",
+    "CWE-22",
+    "CWE-20"
+   ]
+  },
+  "A.8.29": {
+   "title": "Security testing in development and acceptance",
+   "group": "Technological Controls",
+   "description": "Security testing processes shall be defined and implemented in the development life cycle.",
+   "keywords": [
+    "security testing",
+    "penetration testing",
+    "vulnerability testing",
+    "sast",
+    "dast",
+    "security scan"
+   ],
+   "cwe": []
+  },
+  "A.8.30": {
+   "title": "Outsourced development",
+   "group": "Technological Controls",
+   "description": "The organization shall direct, monitor and review the activities related to outsourced system development.",
+   "keywords": [
+    "outsourced",
+    "third party development",
+    "vendor code",
+    "supply chain",
+    "dependency"
+   ],
+   "cwe": [
+    "CWE-1104"
+   ]
+  },
+  "A.8.33": {
+   "title": "Test information",
+   "group": "Technological Controls",
+   "description": "Test information shall be appropriately selected, protected and managed.",
+   "keywords": [
+    "test data",
+    "hardcoded test data",
+    "sensitive test data",
+    "production data in test"
+   ],
+   "cwe": [
+    "CWE-200"
+   ]
+  },
+  "A.8.34": {
+   "title": "Protection of information systems during audit testing",
+   "group": "Technological Controls",
+   "description": "Audit tests and other assurance activities involving assessment of operational systems shall be planned and agreed between the tester and appropriate management.",
+   "keywords": [
+    "audit testing",
+    "penetration test",
+    "security audit",
+    "non-disruptive testing"
+   ],
+   "cwe": []
+  }
+ },
+ "iso27034": {
+  "ISO27034-ASC-1": {
+   "title": "Security requirements elicitation",
+   "group": "Application Security Design",
+   "description": "Security requirements shall be elicited, documented and validated as part of the application development lifecycle. Requirements must cover authentication, authorization, data protection and audit.",
+   "keywords": [
+    "security requirement",
+    "missing requirement",
+    "security design",
+    "threat model"
+   ],
+   "cwe": []
+  },
+  "ISO27034-ASC-2": {
+   "title": "Threat modelling for applications",
+   "group": "Application Security Design",
+   "description": "Threat modelling shall be performed to identify potential attack vectors, threat actors and security controls needed for each application component.",
+   "keywords": [
+    "threat model",
+    "attack vector",
+    "attack surface",
+    "security architecture"
+   ],
+   "cwe": []
+  },
+  "ISO27034-ASC-3": {
+   "title": "Secure application architecture",
+   "group": "Application Security Design",
+   "description": "Applications shall be designed using security architecture principles including defence-in-depth, least privilege, fail-safe defaults and complete mediation.",
+   "keywords": [
+    "defence in depth",
+    "least privilege",
+    "fail safe",
+    "secure architecture",
+    "trust boundary",
+    "privilege separation"
+   ],
+   "cwe": [
+    "CWE-269",
+    "CWE-250"
+   ]
+  },
+  "ISO27034-ASC-4": {
+   "title": "Application security control specification",
+   "group": "Application Security Design",
+   "description": "All security controls to be implemented in the application shall be specified, including authentication mechanisms, session management, cryptographic controls and input validation.",
+   "keywords": [
+    "security control",
+    "authentication control",
+    "session control",
+    "input validation",
+    "sanitization"
+   ],
+   "cwe": [
+    "CWE-20",
+    "CWE-287"
+   ]
+  },
+  "ISO27034-ASC-5": {
+   "title": "Application authentication mechanisms",
+   "group": "Authentication and Access Control",
+   "description": "Applications shall implement secure authentication mechanisms. Weak or broken authentication, hardcoded credentials and session weaknesses are prohibited.",
+   "keywords": [
+    "authentication bypass",
+    "broken authentication",
+    "hardcoded password",
+    "default password",
+    "weak password",
+    "anonymous access",
+    "missing authentication",
+    "jwt",
+    "session fixation"
+   ],
+   "cwe": [
+    "CWE-287",
+    "CWE-306",
+    "CWE-798",
+    "CWE-259",
+    "CWE-384"
+   ]
+  },
+  "ISO27034-ASC-6": {
+   "title": "Application authorisation and access control",
+   "group": "Authentication and Access Control",
+   "description": "Applications shall enforce authorisation decisions to prevent unauthorized access to functions or data. Insecure direct object references, privilege escalation and missing access control checks are prohibited.",
+   "keywords": [
+    "authorization",
+    "access control",
+    "privilege escalation",
+    "idor",
+    "insecure direct object",
+    "missing authorization",
+    "role check",
+    "permission check"
+   ],
+   "cwe": [
+    "CWE-284",
+    "CWE-285",
+    "CWE-639",
+    "CWE-862"
+   ]
+  },
+  "ISO27034-ASC-7": {
+   "title": "Session management security",
+   "group": "Authentication and Access Control",
+   "description": "Applications shall implement secure session management including secure session identifiers, session expiry, and protection against session hijacking.",
+   "keywords": [
+    "session management",
+    "session hijacking",
+    "session fixation",
+    "csrf",
+    "cookie security",
+    "secure cookie",
+    "httponly",
+    "samesite",
+    "session timeout"
+   ],
+   "cwe": [
+    "CWE-384",
+    "CWE-352",
+    "CWE-614"
+   ]
+  },
+  "ISO27034-ASC-8": {
+   "title": "Input validation",
+   "group": "Input Validation and Output Encoding",
+   "description": "All input from untrusted sources shall be validated before processing. Applications shall validate type, length, format and range of all input values.",
+   "keywords": [
+    "input validation",
+    "missing validation",
+    "unvalidated input",
+    "injection",
+    "sql injection",
+    "path traversal",
+    "xxe",
+    "ldap injection"
+   ],
+   "cwe": [
+    "CWE-20",
+    "CWE-89",
+    "CWE-22",
+    "CWE-611",
+    "CWE-90"
+   ]
+  },
+  "ISO27034-ASC-9": {
+   "title": "Output encoding and injection prevention",
+   "group": "Input Validation and Output Encoding",
+   "description": "Application output shall be encoded appropriately to prevent injection attacks. Cross-site scripting and injection vulnerabilities shall be prevented through proper output encoding.",
+   "keywords": [
+    "output encoding",
+    "xss",
+    "cross-site scripting",
+    "html encoding",
+    "reflected xss",
+    "stored xss",
+    "dom xss",
+    "injection prevention"
+   ],
+   "cwe": [
+    "CWE-79",
+    "CWE-80",
+    "CWE-116"
+   ]
+  },
+  "ISO27034-ASC-10": {
+   "title": "Prevention of injection attacks",
+   "group": "Input Validation and Output Encoding",
+   "description": "Applications shall prevent injection vulnerabilities including SQL injection, command injection, LDAP injection and XML injection through parameterised queries and safe API usage.",
+   "keywords": [
+    "sql injection",
+    "command injection",
+    "code injection",
+    "ldap injection",
+    "xml injection",
+    "parameterized query",
+    "prepared statement",
+    "exec",
+    "shell injection",
+    "os command"
+   ],
+   "cwe": [
+    "CWE-89",
+    "CWE-78",
+    "CWE-94",
+    "CWE-90",
+    "CWE-91"
+   ]
+  },
+  "ISO27034-ASC-11": {
+   "title": "Cryptographic controls in applications",
+   "group": "Data Security",
+   "description": "Applications shall use approved cryptographic algorithms and key lengths. Weak algorithms (MD5, SHA1, DES, RC4) and hardcoded cryptographic keys shall not be used.",
+   "keywords": [
+    "weak cipher",
+    "weak hash",
+    "md5",
+    "sha1",
+    "des",
+    "rc4",
+    "aes",
+    "rsa",
+    "cryptographic failure",
+    "hardcoded key",
+    "key management",
+    "encryption"
+   ],
+   "cwe": [
+    "CWE-327",
+    "CWE-328",
+    "CWE-326",
+    "CWE-321"
+   ]
+  },
+  "ISO27034-ASC-12": {
+   "title": "Sensitive data protection",
+   "group": "Data Security",
+   "description": "Applications shall protect sensitive data including PII, credentials, and confidential business data both at rest and in transit. Sensitive data shall not be exposed in logs, URLs or error messages.",
+   "keywords": [
+    "sensitive data",
+    "pii",
+    "data exposure",
+    "credential exposure",
+    "hardcoded secret",
+    "api key",
+    "private key",
+    "log sensitive data",
+    "url parameter sensitive"
+   ],
+   "cwe": [
+    "CWE-200",
+    "CWE-312",
+    "CWE-532",
+    "CWE-319"
+   ]
+  },
+  "ISO27034-ASC-13": {
+   "title": "Transport layer security",
+   "group": "Data Security",
+   "description": "All communications transmitting sensitive information shall use strong transport layer security (TLS 1.2+). Insecure protocols, invalid certificates and certificate validation failures are prohibited.",
+   "keywords": [
+    "tls",
+    "ssl",
+    "https",
+    "transport security",
+    "unencrypted communication",
+    "http",
+    "clear text",
+    "certificate validation",
+    "ssl verification",
+    "insecure connection"
+   ],
+   "cwe": [
+    "CWE-319",
+    "CWE-326",
+    "CWE-295",
+    "CWE-297"
+   ]
+  },
+  "ISO27034-ASC-14": {
+   "title": "Secure error handling",
+   "group": "Error Handling and Logging",
+   "description": "Applications shall handle errors and exceptions securely. Error messages shall not expose sensitive information, stack traces, or system internals to users.",
+   "keywords": [
+    "error handling",
+    "exception handling",
+    "stack trace exposed",
+    "verbose error",
+    "sensitive data in error",
+    "information disclosure in error"
+   ],
+   "cwe": [
+    "CWE-209",
+    "CWE-248",
+    "CWE-391"
+   ]
+  },
+  "ISO27034-ASC-15": {
+   "title": "Security event logging",
+   "group": "Error Handling and Logging",
+   "description": "Applications shall log security-relevant events including authentication failures, access control failures and input validation failures. Logs shall not contain sensitive data.",
+   "keywords": [
+    "logging",
+    "audit log",
+    "security event log",
+    "missing log",
+    "insufficient logging",
+    "log injection",
+    "log forging",
+    "no logging"
+   ],
+   "cwe": [
+    "CWE-117",
+    "CWE-778",
+    "CWE-532"
+   ]
+  },
+  "ISO27034-ASC-16": {
+   "title": "Secure application configuration",
+   "group": "Configuration and Infrastructure Security",
+   "description": "Applications shall be deployed with secure configurations. Default credentials, debug modes, and development settings shall be disabled in production.",
+   "keywords": [
+    "misconfiguration",
+    "default configuration",
+    "debug mode",
+    "insecure default",
+    "hardening",
+    "security configuration",
+    "development setting in production"
+   ],
+   "cwe": [
+    "CWE-1188",
+    "CWE-16"
+   ]
+  },
+  "ISO27034-ASC-17": {
+   "title": "Dependency and component security",
+   "group": "Configuration and Infrastructure Security",
+   "description": "All third-party libraries, frameworks and components used in applications shall be inventoried and kept up-to-date. Known vulnerable dependencies shall be updated or replaced.",
+   "keywords": [
+    "dependency",
+    "library",
+    "third-party",
+    "outdated",
+    "vulnerable dependency",
+    "known vulnerability",
+    "cve",
+    "open source"
+   ],
+   "cwe": [
+    "CWE-1104"
+   ]
+  },
+  "ISO27034-ASC-18": {
+   "title": "Container and infrastructure security",
+   "group": "Configuration and Infrastructure Security",
+   "description": "Containers, orchestration platforms and infrastructure-as-code shall be configured securely. Containers shall not run as root and shall have resource limits set.",
+   "keywords": [
+    "container security",
+    "docker",
+    "kubernetes",
+    "root container",
+    "privileged container",
+    "resource limit",
+    "security context"
+   ],
+   "cwe": [
+    "CWE-250"
+   ]
+  },
+  "ISO27034-ASC-19": {
+   "title": "Static application security testing (SAST)",
+   "group": "Application Security Testing",
+   "description": "Static analysis tools shall be used during development to identify security vulnerabilities in source code before deployment.",
+   "keywords": [
+    "sast",
+    "static analysis",
+    "code analysis",
+    "security scan",
+    "sonarqube",
+    "vulnerability scan"
+   ],
+   "cwe": []
+  },
+  "ISO27034-ASC-20": {
+   "title": "Dynamic application security testing (DAST)",
+   "group": "Application Security Testing",
+   "description": "Dynamic analysis shall be performed against running applications to identify runtime security vulnerabilities.",
+   "keywords": [
+    "dast",
+    "dynamic analysis",
+    "penetration testing",
+    "runtime security",
+    "vulnerability testing"
+   ],
+   "cwe": []
+  },
+  "ISO27034-ASC-21": {
+   "title": "Security code review",
+   "group": "Application Security Testing",
+   "description": "Security-focused code reviews shall be conducted for all code changes introducing security-sensitive functionality.",
+   "keywords": [
+    "code review",
+    "security review",
+    "peer review",
+    "manual review"
+   ],
+   "cwe": []
+  }
+ },
+ "nist_sp800": {
+  "AC-1": {
+   "title": "Policy and Procedures",
+   "group": "Access Control",
+   "description": "Develop, document, and disseminate access control policy addressing purpose, scope, roles, responsibilities, management commitment, and compliance.",
+   "keywords": [
+    "access control policy",
+    "authorization policy",
+    "security policy",
+    "governance"
+   ],
+   "cwe": []
+  },
+  "AC-2": {
+   "title": "Account Management",
+   "group": "Access Control",
+   "description": "Manage system accounts including identifying account types, establishing conditions for membership, specifying authorized users, requiring approvals, monitoring account usage, and notifying account managers.",
+   "keywords": [
+    "account management",
+    "user account",
+    "orphaned account",
+    "inactive account",
+    "privilege account",
+    "account lifecycle"
+   ],
+   "cwe": [
+    "CWE-287"
+   ]
+  },
+  "AC-3": {
+   "title": "Access Enforcement",
+   "group": "Access Control",
+   "description": "Enforce approved authorizations for logical access to information and system resources in accordance with applicable access control policies.",
+   "keywords": [
+    "access enforcement",
+    "authorization",
+    "access control",
+    "missing authorization",
+    "idor",
+    "insecure direct object",
+    "privilege escalation"
+   ],
+   "cwe": [
+    "CWE-284",
+    "CWE-285",
+    "CWE-862",
+    "CWE-639"
+   ]
+  },
+  "AC-4": {
+   "title": "Information Flow Enforcement",
+   "group": "Access Control",
+   "description": "Enforce approved authorizations for controlling the flow of information within the system and between connected systems based on applicable policy.",
+   "keywords": [
+    "information flow",
+    "data flow control",
+    "ssrf",
+    "server-side request forgery",
+    "open redirect",
+    "data exfiltration"
+   ],
+   "cwe": [
+    "CWE-918",
+    "CWE-601"
+   ]
+  },
+  "AC-6": {
+   "title": "Least Privilege",
+   "group": "Access Control",
+   "description": "Employ the principle of least privilege, allowing only authorized accesses for users which are necessary to accomplish assigned organizational tasks.",
+   "keywords": [
+    "least privilege",
+    "privilege escalation",
+    "admin access",
+    "root access",
+    "excessive permission",
+    "superuser"
+   ],
+   "cwe": [
+    "CWE-269",
+    "CWE-250"
+   ]
+  },
+  "AC-7": {
+   "title": "Unsuccessful Logon Attempts",
+   "group": "Access Control",
+   "description": "Enforce a limit of consecutive invalid logon attempts and automatically lock the account when the maximum number of unsuccessful attempts is exceeded.",
+   "keywords": [
+    "brute force",
+    "account lockout",
+    "login attempt",
+    "failed login",
+    "rate limiting authentication"
+   ],
+   "cwe": [
+    "CWE-307",
+    "CWE-308"
+   ]
+  },
+  "AC-11": {
+   "title": "Device Lock",
+   "group": "Access Control",
+   "description": "Prevent further access to the system by initiating a session lock after a period of inactivity or upon receiving a request from a user.",
+   "keywords": [
+    "session timeout",
+    "session lock",
+    "idle session",
+    "session expiry"
+   ],
+   "cwe": [
+    "CWE-613"
+   ]
+  },
+  "AC-17": {
+   "title": "Remote Access",
+   "group": "Access Control",
+   "description": "Establish and document usage restrictions, configuration/connection requirements, and implementation guidance for each type of remote access allowed.",
+   "keywords": [
+    "remote access",
+    "vpn",
+    "remote connection",
+    "ssh",
+    "rdp",
+    "remote code execution"
+   ],
+   "cwe": []
+  },
+  "AU-2": {
+   "title": "Event Logging",
+   "group": "Audit and Accountability",
+   "description": "Identify the types of events that the system is capable of logging in support of the audit function and coordinate the event logging function with other organizations requiring audit-related information.",
+   "keywords": [
+    "logging",
+    "audit log",
+    "event logging",
+    "missing log",
+    "insufficient logging",
+    "log injection",
+    "no logging"
+   ],
+   "cwe": [
+    "CWE-778",
+    "CWE-117"
+   ]
+  },
+  "AU-3": {
+   "title": "Content of Audit Records",
+   "group": "Audit and Accountability",
+   "description": "Ensure that audit records contain information that establishes what type of event occurred, when the event occurred, where the event occurred, the source of the event, the outcome of the event, and the identity of individuals associated with the event.",
+   "keywords": [
+    "audit record",
+    "log content",
+    "event record",
+    "log format",
+    "timestamp",
+    "user identity in log"
+   ],
+   "cwe": []
+  },
+  "AU-9": {
+   "title": "Protection of Audit Information",
+   "group": "Audit and Accountability",
+   "description": "Protect audit information and audit tools from unauthorized access, modification, and deletion.",
+   "keywords": [
+    "log protection",
+    "log tampering",
+    "log injection",
+    "log forging",
+    "audit protection"
+   ],
+   "cwe": [
+    "CWE-117"
+   ]
+  },
+  "CA-7": {
+   "title": "Continuous Monitoring",
+   "group": "Assessment Authorization and Monitoring",
+   "description": "Develop a system-level continuous monitoring strategy and implement continuous monitoring in accordance with the organization-level continuous monitoring strategy.",
+   "keywords": [
+    "continuous monitoring",
+    "siem",
+    "security monitoring",
+    "anomaly detection",
+    "intrusion detection"
+   ],
+   "cwe": []
+  },
+  "CA-8": {
+   "title": "Penetration Testing",
+   "group": "Assessment Authorization and Monitoring",
+   "description": "Conduct penetration testing on organizational systems or system components to identify vulnerabilities and weaknesses.",
+   "keywords": [
+    "penetration testing",
+    "pentest",
+    "vulnerability testing",
+    "security testing",
+    "sast",
+    "dast"
+   ],
+   "cwe": []
+  },
+  "CM-2": {
+   "title": "Baseline Configuration",
+   "group": "Configuration Management",
+   "description": "Develop, document, and maintain a current baseline configuration of the information system.",
+   "keywords": [
+    "configuration",
+    "baseline configuration",
+    "misconfiguration",
+    "hardening",
+    "configuration management"
+   ],
+   "cwe": [
+    "CWE-1188",
+    "CWE-16"
+   ]
+  },
+  "CM-6": {
+   "title": "Configuration Settings",
+   "group": "Configuration Management",
+   "description": "Establish and document configuration settings for technology products employed within the information system that reflect the most restrictive mode consistent with operational requirements.",
+   "keywords": [
+    "security configuration",
+    "insecure default",
+    "debug mode",
+    "verbose error",
+    "stack trace exposed",
+    "default credentials",
+    "hardcoded configuration"
+   ],
+   "cwe": [
+    "CWE-16",
+    "CWE-614",
+    "CWE-1188"
+   ]
+  },
+  "CM-7": {
+   "title": "Least Functionality",
+   "group": "Configuration Management",
+   "description": "Configure the information system to provide only essential capabilities.",
+   "keywords": [
+    "unnecessary service",
+    "unused port",
+    "unnecessary feature",
+    "attack surface reduction"
+   ],
+   "cwe": []
+  },
+  "CM-8": {
+   "title": "System Component Inventory",
+   "group": "Configuration Management",
+   "description": "Develop and document an inventory of system components that accurately reflects the current system.",
+   "keywords": [
+    "software inventory",
+    "dependency",
+    "library",
+    "package",
+    "component",
+    "third-party"
+   ],
+   "cwe": [
+    "CWE-1104"
+   ]
+  },
+  "IA-2": {
+   "title": "Identification and Authentication (Organizational Users)",
+   "group": "Identification and Authentication",
+   "description": "Uniquely identify and authenticate organizational users and associate that unique identification with processes acting on behalf of those users.",
+   "keywords": [
+    "authentication",
+    "identity",
+    "user identification",
+    "broken authentication",
+    "anonymous access",
+    "missing authentication"
+   ],
+   "cwe": [
+    "CWE-287",
+    "CWE-306"
+   ]
+  },
+  "IA-5": {
+   "title": "Authenticator Management",
+   "group": "Identification and Authentication",
+   "description": "Manage information system authenticators by verifying the identity of the individual as part of initial authenticator distribution, establishing initial authenticator content, ensuring that authenticators have sufficient strength of mechanism, and enforcing administrative procedures.",
+   "keywords": [
+    "password management",
+    "credential management",
+    "hardcoded password",
+    "default password",
+    "weak password",
+    "plaintext credential",
+    "password storage",
+    "password policy"
+   ],
+   "cwe": [
+    "CWE-798",
+    "CWE-259",
+    "CWE-521",
+    "CWE-522"
+   ]
+  },
+  "IA-6": {
+   "title": "Authenticator Feedback",
+   "group": "Identification and Authentication",
+   "description": "Obscure feedback of authentication information during the authentication process to protect the information from possible exploitation by unauthorized individuals.",
+   "keywords": [
+    "password feedback",
+    "password visible",
+    "credential in url",
+    "credential in log",
+    "sensitive data in url"
+   ],
+   "cwe": [
+    "CWE-200",
+    "CWE-549"
+   ]
+  },
+  "IA-8": {
+   "title": "Identification and Authentication (Non-Organizational Users)",
+   "group": "Identification and Authentication",
+   "description": "Uniquely identify and authenticate non-organizational users.",
+   "keywords": [
+    "external user authentication",
+    "api authentication",
+    "service authentication",
+    "jwt",
+    "oauth",
+    "saml",
+    "api key"
+   ],
+   "cwe": [
+    "CWE-287"
+   ]
+  },
+  "IR-4": {
+   "title": "Incident Handling",
+   "group": "Incident Response",
+   "description": "Implement an incident handling capability for security incidents that includes preparation, detection and analysis, containment, eradication, and recovery.",
+   "keywords": [
+    "incident handling",
+    "incident response",
+    "containment",
+    "eradication",
+    "recovery",
+    "incident management"
+   ],
+   "cwe": []
+  },
+  "IR-5": {
+   "title": "Incident Monitoring",
+   "group": "Incident Response",
+   "description": "Track and document information system security incidents.",
+   "keywords": [
+    "incident tracking",
+    "incident monitoring",
+    "security incident",
+    "event monitoring"
+   ],
+   "cwe": []
+  },
+  "RA-3": {
+   "title": "Risk Assessment",
+   "group": "Risk Assessment",
+   "description": "Conduct a risk assessment to identify threats and vulnerabilities to organizational operations, organizational assets, and individuals.",
+   "keywords": [
+    "risk assessment",
+    "threat",
+    "vulnerability",
+    "impact",
+    "likelihood",
+    "severity"
+   ],
+   "cwe": []
+  },
+  "RA-5": {
+   "title": "Vulnerability Monitoring and Scanning",
+   "group": "Risk Assessment",
+   "description": "Monitor and scan for vulnerabilities in the information system and hosted applications and when new vulnerabilities potentially affecting the system are identified and reported.",
+   "keywords": [
+    "vulnerability scanning",
+    "sast",
+    "dast",
+    "security scan",
+    "cve",
+    "known vulnerability",
+    "dependency vulnerability"
+   ],
+   "cwe": []
+  },
+  "SC-5": {
+   "title": "Denial of Service Protection",
+   "group": "System and Communications Protection",
+   "description": "Implement protections against or limit the effects of denial-of-service attacks.",
+   "keywords": [
+    "denial of service",
+    "dos",
+    "ddos",
+    "rate limiting",
+    "resource exhaustion",
+    "memory leak"
+   ],
+   "cwe": [
+    "CWE-400",
+    "CWE-770"
+   ]
+  },
+  "SC-8": {
+   "title": "Transmission Confidentiality and Integrity",
+   "group": "System and Communications Protection",
+   "description": "Implement cryptographic mechanisms to prevent unauthorized disclosure and detect changes to information during transmission.",
+   "keywords": [
+    "tls",
+    "ssl",
+    "https",
+    "transport security",
+    "unencrypted communication",
+    "clear text",
+    "man in the middle",
+    "certificate validation"
+   ],
+   "cwe": [
+    "CWE-319",
+    "CWE-326",
+    "CWE-295",
+    "CWE-297"
+   ]
+  },
+  "SC-12": {
+   "title": "Cryptographic Key Establishment and Management",
+   "group": "System and Communications Protection",
+   "description": "Establish and manage cryptographic keys when cryptography is employed within the information system.",
+   "keywords": [
+    "key management",
+    "hardcoded key",
+    "cryptographic key",
+    "key rotation",
+    "key storage"
+   ],
+   "cwe": [
+    "CWE-321",
+    "CWE-320"
+   ]
+  },
+  "SC-13": {
+   "title": "Cryptographic Protection",
+   "group": "System and Communications Protection",
+   "description": "Implement cryptographic uses and type of cryptography required for each use in accordance with applicable federal laws.",
+   "keywords": [
+    "encryption",
+    "cryptography",
+    "weak cipher",
+    "aes",
+    "rsa",
+    "md5",
+    "sha1",
+    "weak hash",
+    "des",
+    "rc4",
+    "cryptographic failure"
+   ],
+   "cwe": [
+    "CWE-327",
+    "CWE-328",
+    "CWE-326"
+   ]
+  },
+  "SC-23": {
+   "title": "Session Authenticity",
+   "group": "System and Communications Protection",
+   "description": "Protect the authenticity of communications sessions.",
+   "keywords": [
+    "session authenticity",
+    "session management",
+    "csrf",
+    "session fixation",
+    "session hijacking",
+    "cookie security"
+   ],
+   "cwe": [
+    "CWE-352",
+    "CWE-384",
+    "CWE-614"
+   ]
+  },
+  "SC-28": {
+   "title": "Protection of Information at Rest",
+   "group": "System and Communications Protection",
+   "description": "Implement cryptographic mechanisms to prevent unauthorized disclosure and modification of information at rest.",
+   "keywords": [
+    "data at rest",
+    "database encryption",
+    "disk encryption",
+    "unencrypted storage",
+    "plaintext storage",
+    "sensitive data storage"
+   ],
+   "cwe": [
+    "CWE-312",
+    "CWE-313",
+    "CWE-311"
+   ]
+  },
+  "SI-2": {
+   "title": "Flaw Remediation",
+   "group": "System and Information Integrity",
+   "description": "Identify, report, and correct information system flaws; test software and firmware updates related to flaw remediation for effectiveness and potential side effects.",
+   "keywords": [
+    "flaw remediation",
+    "patch",
+    "fix",
+    "remediation",
+    "vulnerability fix",
+    "security patch",
+    "update"
+   ],
+   "cwe": []
+  },
+  "SI-3": {
+   "title": "Malicious Code Protection",
+   "group": "System and Information Integrity",
+   "description": "Implement malicious code protection mechanisms at information system entry and exit points and at workstations, servers, or mobile computing devices on the network.",
+   "keywords": [
+    "malicious code",
+    "malware",
+    "code injection",
+    "command injection",
+    "exec",
+    "remote code execution",
+    "deserialization",
+    "shell injection"
+   ],
+   "cwe": [
+    "CWE-78",
+    "CWE-502",
+    "CWE-94"
+   ]
+  },
+  "SI-10": {
+   "title": "Information Input Validation",
+   "group": "System and Information Integrity",
+   "description": "Check the validity of all information input to the information system.",
+   "keywords": [
+    "input validation",
+    "unvalidated input",
+    "injection",
+    "sql injection",
+    "xss",
+    "path traversal",
+    "xxe",
+    "missing validation"
+   ],
+   "cwe": [
+    "CWE-20",
+    "CWE-89",
+    "CWE-79",
+    "CWE-22",
+    "CWE-611"
+   ]
+  },
+  "SI-16": {
+   "title": "Memory Protection",
+   "group": "System and Information Integrity",
+   "description": "Implement the following controls to protect the system memory from unauthorized code execution.",
+   "keywords": [
+    "memory protection",
+    "buffer overflow",
+    "heap overflow",
+    "stack overflow",
+    "out of bounds",
+    "memory corruption"
+   ],
+   "cwe": [
+    "CWE-119",
+    "CWE-125",
+    "CWE-787",
+    "CWE-120"
+   ]
+  },
+  "SA-11": {
+   "title": "Developer Testing and Evaluation",
+   "group": "System and Services Acquisition",
+   "description": "Require the developer of the information system, system component, or information system service to implement a security assessment plan and conduct unit, integration, system, and regression testing.",
+   "keywords": [
+    "developer testing",
+    "sast",
+    "security test",
+    "code analysis",
+    "security review",
+    "vulnerability testing"
+   ],
+   "cwe": []
+  },
+  "SA-15": {
+   "title": "Development Process, Standards, and Tools",
+   "group": "System and Services Acquisition",
+   "description": "Require that the developer uses a documented development process that explicitly addresses security requirements, identifies and resolves security flaws, and documents the results.",
+   "keywords": [
+    "secure sdlc",
+    "development process",
+    "coding standard",
+    "secure coding",
+    "security requirement"
+   ],
+   "cwe": []
+  }
+ }
+}
